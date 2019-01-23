@@ -17,4 +17,13 @@ This lab comprises 5 primary steps: You will create a top-level project using Vi
 The purpose of the lab exercises is to walk you through a complete hardware and software processor system design. Each lab will build upon the previous lab. The following diagram represents the completed design (Figure 1).
 <p align="center">
  <img src="https://user-images.githubusercontent.com/13907836/51588935-54eb1480-1e9a-11e9-81bf-fdeb37fb93af.PNG">
-</p>
+</p><br><br>
+In this lab, you will use IP Integrator to create a processing system based design consisting of the following (Figure 2):<br><br>
+
+* ARM Cortex A9 core (PS) 
+* UART for serial communication 
+* DDR3 controller for external DDR3_SDRAM memory 
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/13907836/51589335-82848d80-1e9b-11e9-9e6c-e366ead00be8.PNG">
+</p><br><br>
