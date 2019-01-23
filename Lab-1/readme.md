@@ -2,7 +2,8 @@
 <h2>Introduction</h2><br>
 This lab guides you through the process of using Vivado to create a simple ARM Cortex-A9 based processor design targeting the ZedBoard or Zybo board. Where the instructions refer to both boards, choose the board you are using. You will use Vivado to create the hardware system and SDK (Software Development Kit) to create an example application to verify the hardware functionality.<br><br>
 <h2>Objective</h2><br>
-After completing this lab, you will be able to: 
+After completing this lab, you will be able to:<br>
+
 * Create a Vivado project for a Zynq system
 * Use the IP Integrator to create a hardware system 
 * Use SDK to create a standard memory test project
