@@ -40,6 +40,6 @@ These files can be downloaded from either from the Digilent, Inc. webpage (http:
 
 <h2>Create a Vivado Project</h2>
 <h3>1-1. Launch Vivado and create an empty project targeting the ZedBoard or the Zybo, using the VHDL language.</h3>
-1-1-1. Open Vivado by selecting Start > All Programs > Xilinx Design Tools > Vivado 2015.2 > Vivado 2015.2<br><br>
+1-1-1. Open Vivado by selecting ***Start > All Programs > Xilinx Design Tools > Vivado 2015.2 > Vivado 2015.2***<br><br>
 1-1-2. Click Create New Project to start the wizard. You will see the Create a New Vivado Project dialog box. Click Next. <br><br>
 1-1-3. Click the Browse button of the Project Location field of the New Project form, browse to {labs}, and click Select. <br><br>
