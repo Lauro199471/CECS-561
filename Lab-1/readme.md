@@ -44,3 +44,9 @@ These files can be downloaded from either from the Digilent, Inc. webpage (http:
 1-1-2. Click <b>Create New Project</b> to start the wizard. You will see the <i>Create a New Vivado Project</i> dialog box. Click <b>Next</b>. <br><br>
 1-1-3. Click the Browse button of the <i>Project Location</i> field of the <b>New Project</b> form, browse to <b>{labs}</b>, and click <b>Select.</b> <br><br>
 1-1-4. Enter <b>lab1</b> in the <i>Project Name</i> field.  Make sure that the <i>Create Project Subdirectory</i> box is checked.  Click <b>Next</b>. You can one from the following two directory structures. 
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/13907836/51590651-916d3f00-1e9f-11e9-9711-94a67ab75dc2.PNG">
+</p><br><br>
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/13907836/51590671-a1851e80-1e9f-11e9-8551-b6311aab45a0.PNG">
+</p><br>
