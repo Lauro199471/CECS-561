@@ -14,7 +14,7 @@ This lab is separated into steps that consist of general overview statements tha
 This lab comprises 5 primary steps: You will create a top-level project using Vivado, create the processor system using the Vivado IP Integrator, generate the top-level HDL and export the design to SDK, create a Memory Test application in SDK, and finally, test in hardware.
 <br><br>
 <h2>Design Description </h2><br>
-The purpose of the lab exercises is to walk you through a complete hardware and software processor system design. Each lab will build upon the previous lab. The following diagram represents the completed design (**Figure 1**).
+The purpose of the lab exercises is to walk you through a complete hardware and software processor system design. Each lab will build upon the previous lab. The following diagram represents the completed design ( **Figure 1** ).
 <p align="center">
  <img src="https://user-images.githubusercontent.com/13907836/51588935-54eb1480-1e9a-11e9-81bf-fdeb37fb93af.PNG">
 </p>
