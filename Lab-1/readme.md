@@ -39,4 +39,4 @@ Board support for the Zybo is not included in Vivado 2015.2 by default. The rele
 These files can be downloaded from either from the Digilent, Inc. webpage (http://www.digilentinc.com/) or the XUP webpage (http://www.xilinx.com/support/university/vivado/vivado-workshops/Vivadoembedded-design-flow-zynq.html ) where this material is also hosted. 
 
 <h2>Create a Vivado Project</h2><br>
-** 1-1. Launch Vivado and create an empty project targeting the ZedBoard or the Zybo, using the VHDL language. **
+**1-1. Launch Vivado and create an empty project targeting the ZedBoard or the Zybo, using the VHDL language.**
