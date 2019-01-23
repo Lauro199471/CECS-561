@@ -32,3 +32,6 @@ In this lab, you will use IP Integrator to create a processing system based desi
 <p align="center">
  <img src="https://user-images.githubusercontent.com/13907836/51589562-46056180-1e9c-11e9-9ebc-47da8a1af069.PNG">
 </p><br><br>
+In the instructions below;<br> 
+{sources} refers to: C:\xup\embedded\2015_2_zynq_sources <br>
+{labs} refers to : C:\xup\embedded\2015_2_zynq_labs <br>
