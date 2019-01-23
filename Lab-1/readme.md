@@ -38,5 +38,8 @@ In the instructions below;<br>
 Board support for the Zybo is not included in Vivado 2015.2 by default. The relevant files “zybo.zip” need to be extracted and saved to: {Vivado installation}\data\boards\board_parts\zynq<br><br>
 These files can be downloaded from either from the Digilent, Inc. webpage (http://www.digilentinc.com/) or the XUP webpage (http://www.xilinx.com/support/university/vivado/vivado-workshops/Vivadoembedded-design-flow-zynq.html ) where this material is also hosted. 
 
-<h2>Create a Vivado Project</h2><br>
+<h2>Create a Vivado Project</h2>
 <h3>1-1. Launch Vivado and create an empty project targeting the ZedBoard or the Zybo, using the VHDL language.</h3>
+1-1-1. Open Vivado by selecting Start > All Programs > Xilinx Design Tools > Vivado 2015.2 > Vivado 2015.2<br>
+1-1-2. Click Create New Project to start the wizard. You will see the Create a New Vivado Project dialog box. Click Next. <br>
+1-1-3. Click the Browse button of the Project Location field of the New Project form, browse to {labs}, and click Select. <br>
