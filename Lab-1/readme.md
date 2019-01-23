@@ -18,7 +18,7 @@ The purpose of the lab exercises is to walk you through a complete hardware and 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/13907836/51589414-c2e40b80-1e9b-11e9-9017-2b9bfb682ed7.PNG">
 </p><br><br>
-In this lab, you will use IP Integrator to create a processing system based design consisting of the following (Figure 2):<br><br>
+In this lab, you will use IP Integrator to create a processing system based design consisting of the following (Figure 2):<br>
 
 * ARM Cortex A9 core (PS) 
 * UART for serial communication 
@@ -26,4 +26,9 @@ In this lab, you will use IP Integrator to create a processing system based desi
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/13907836/51589335-82848d80-1e9b-11e9-9e6c-e366ead00be8.PNG">
+</p><br><br>
+
+<h2>General Flow for this Lab</h2><br>
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/13907836/51589562-46056180-1e9c-11e9-9ebc-47da8a1af069.PNG">
 </p><br><br>
