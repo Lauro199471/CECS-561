@@ -51,4 +51,9 @@ These files can be downloaded from either from the Digilent, Inc. webpage (http:
  <img src="https://user-images.githubusercontent.com/13907836/51590671-a1851e80-1e9f-11e9-8551-b6311aab45a0.PNG">
 </p><br>
 1-1-5. In the <i>Project Type</i> form select <b>RTL Project</b>, and click <b>Next</b> <br><br>
-1-1-6. In the <i>Add Sources</i> form, select <b>VHDL</b> as the <i>Target language</i> and <b>Mixed</b> as the <i>Simulator language</i>, and click <b>Next</b> 
+1-1-6. In the <i>Add Sources</i> form, select <b>VHDL</b> as the <i>Target language</i> and <b>Mixed</b> as the <i>Simulator language</i>, and click <b>Next</b><br>
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/13907836/51652814-cfbd3980-1f45-11e9-8445-7aca5f3c09d4.jpg">
+</p><br><br>
+1-1-7. Click <b>Next</b> <u>two more times</u> to skip <i>Adding Existing IP</i> and <i>Add Constraints</i><br><br>
+1-1-8. In the <i>Default Part</i> form, select <i>Boards</i>, and depending on the board you are using, select <i>ZedBoard</i> or <i>Zybo</i> and click <b>Next</b>. 
