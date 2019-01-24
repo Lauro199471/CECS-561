@@ -111,8 +111,11 @@ i.e. Remove:<br>
 <i>USB 0</i> <br>
 <i>SD 0</i> <br>
 Expand <b>GPIO</b> to deselect <i>GPIO MIO</i> <br>
-Expand <b>Memory Interfaces</b> to deselect <i>Quad SPI Flash</i> 
+Expand <b>Memory Interfaces</b> to deselect <i>Quad SPI Flash</i> <br>
 Expand <b>Application Processor Unit</b> to disable <i>Timer 0</i>. 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/13907836/51654683-e36c9e00-1f4d-11e9-9c16-caac478fe6b6.jpg" >
 </p><br><br>
+2-2-4. Select the <b>PS-PL</b> Configuration tab on the left. <br><br>
+2-2-5. Expand <i>AXI Non Secure Enablement > GP Master AXI interface</i> and deselect <b>M AXI GP0</b> interface.<br><br>
+2-2-6. Expand <b>General > Enable Clock Resets</b> and deselect the <b>FCLK_RESET0_N</b> option. 
