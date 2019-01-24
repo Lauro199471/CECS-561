@@ -118,4 +118,10 @@ Expand <b>Application Processor Unit</b> to disable <i>Timer 0</i>.
 </p><br><br>
 2-2-4. Select the <b>PS-PL</b> Configuration tab on the left. <br><br>
 2-2-5. Expand <i>AXI Non Secure Enablement > GP Master AXI interface</i> and deselect <b>M AXI GP0</b> interface.<br><br>
-2-2-6. Expand <b>General > Enable Clock Resets</b> and deselect the <b>FCLK_RESET0_N</b> option. 
+2-2-6. Expand <b>General > Enable Clock Resets</b> and deselect the <b>FCLK_RESET0_N</b> option.<br><br>
+2-2-7. Select the <b>Clock Configuration</b> tab on the left. Expand the <b>PL Fabric Clocks</b> and deselect the <b>FCLK_CLK0</b> option and click <b>OK.</b><br>
+Click on the   (Regenerate Layout) button and see the following block diagram. 
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/13907836/51654874-c389aa00-1f4e-11e9-8df9-232d7768a0c1.jpg" width="50%" height="50%">
+</p><br><br>
+2-2-8. Click on the  (Validate Design) button and make sure that there are no errors. 
