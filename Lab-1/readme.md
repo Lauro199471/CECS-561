@@ -66,5 +66,6 @@ These files can be downloaded from either from the Digilent, Inc. webpage (http:
 <h3>2-1. Use the IP Integrator to create a new Block Design, add the ZYNQ processing system block, and import the provided xml file for the board.</h3><br><br>
 2-1-1. In the Flow Navigator, click <b>Create Block Design</b> under IP Integrator<br><br>
 <p align="center">
- <img src="https://user-images.githubusercontent.com/13907836/51653754-b1f1d380-1f49-11e9-891f-634c4d1a6349.jpg">
+ <img src="https://user-images.githubusercontent.com/13907836/51653754-b1f1d380-1f49-11e9-891f-634c4d1a6349.jpg" width="50%" height="50%">
 </p><br><br>
+2-1-2. Enter <b>system</b> for the design name and click <b>OK</b>
