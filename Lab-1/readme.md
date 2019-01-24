@@ -178,4 +178,36 @@ The <b>mem_test</b> project and the board support project <b>mem_test_bsp</b> wi
  <img src="https://user-images.githubusercontent.com/13907836/51657949-3731b400-1f5b-11e9-96a9-1ba7c6061f4e.PNG">
 </p><br>
 
-4-1-5. Open the <b>memorytest.c</b> file in the mem_test project (under <i>src</i>), and examine the contents.  This file calls the functions to test the memory
+4-1-5. Open the <b>memorytest.c</b> file in the mem_test project (under <i>src</i>), and examine the contents.  This file calls the functions to test the memory<br>
+
+<h2>Test in Hardware</h2>
+<h3>Zybo: Make sure that the JP7 is set to select USB power and JP5 is set to JTAG mode. Connect the board with a micro-usb cable and power it ON.<br>
+ZedBoard: Make sure that two micro-usb cables are used between the PC and the PROG and the UART connectors of the board and that the board is placed in the JTAG mode (MIO6-MIO2 jumpers are in the Dn position).<br>Establish the serial communication using SDK’s Terminal tab.</h3><br><br>
+
+5-1-1. Zybo: Make sure that the JP7 is set to select USB power, and JP5 is set to JTAG. Make sure that a micro-USB cable is connected to the JTAG PROG connector (next to the power supply connector). Turn ON the power.<br>
+ZedBoard: Make sure that two micro-usb cables are used between the PC and the PROG and the UART connectors of the board and that the board is placed in the JTAG mode (MIO6-MIO2 jumpers are in the Dn position). Turn ON the power<br><br>
+
+5-1-2. Select the  tab.  If it is not visible then select <b>Window > Show view > Terminal.<b><br><br>
+
+5-1-3. Click on and if required, select appropriate COM port (depends on your computer), and configure it with the parameters as shown.<br>
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/13907836/51658624-7a8d2200-1f5d-11e9-8b2e-69b2fad5c1f0.PNG">
+</p><br>  
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/13907836/51658661-a01a2b80-1f5d-11e9-935f-5bf774e800b2.PNG">
+</p><br>  
+
+<h3>5-2. Run the mem_test application and verify the functionality.</h3><br><br>
+5-2-1. In SDK, select the <b>mem_test</b> project in Project Explorer, right-click and select Run As > Launch on Hardware (GDB) to download the application, and will execute ps7_init, and then execute mem_test.elf (user application).<br><br>
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/13907836/51659109-73b2df00-1f5e-11e9-980a-2759f4f19003.PNG">
+</p><br>  
+
+5-2-2. You should see the following output on the <i>Terminal</i> tab. 
+<p align="center">
+ <img src="(https://user-images.githubusercontent.com/13907836/51659289-f76ccb80-1f5e-11e9-9ca4-e13dc68f16b4.PNG">
+</p><br><br>
+5-2-3. Close SDK and Vivado by selecting <b>File > Exit</b> in each program.<br>
+
+<h2>Conclusion</h2>
+Vivado and the IP Integrator allow base embedded processor systems and applications to be generated very quickly. After the system has been defined, the hardware can be exported and SDK can be invoked from Vivado. Software development is done in SDK which provides several application templates including memory tests.  You verified the operation of the hardware by downloading a test application, executing on the processor, and observing the output in the serial terminal window.
