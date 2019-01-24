@@ -187,7 +187,7 @@ ZedBoard: Make sure that two micro-usb cables are used between the PC and the PR
 5-1-1. Zybo: Make sure that the JP7 is set to select USB power, and JP5 is set to JTAG. Make sure that a micro-USB cable is connected to the JTAG PROG connector (next to the power supply connector). Turn ON the power.<br>
 ZedBoard: Make sure that two micro-usb cables are used between the PC and the PROG and the UART connectors of the board and that the board is placed in the JTAG mode (MIO6-MIO2 jumpers are in the Dn position). Turn ON the power<br><br>
 
-5-1-2. Select the  tab.  If it is not visible then select <b>Window > Show view > Terminal.<b><br><br>
+5-1-2. Select the  tab.  If it is not visible then select <b>Window > Show view > Terminal.</b><br><br>
 
 5-1-3. Click on and if required, select appropriate COM port (depends on your computer), and configure it with the parameters as shown.<br>
 <p align="center">
@@ -205,9 +205,10 @@ ZedBoard: Make sure that two micro-usb cables are used between the PC and the PR
 
 5-2-2. You should see the following output on the <i>Terminal</i> tab. 
 <p align="center">
- <img src="(https://user-images.githubusercontent.com/13907836/51659289-f76ccb80-1f5e-11e9-9ca4-e13dc68f16b4.PNG">
+ <img src="https://user-images.githubusercontent.com/13907836/51659289-f76ccb80-1f5e-11e9-9ca4-e13dc68f16b4.PNG">
 </p><br><br>
 5-2-3. Close SDK and Vivado by selecting <b>File > Exit</b> in each program.<br>
 
 <h2>Conclusion</h2>
+
 Vivado and the IP Integrator allow base embedded processor systems and applications to be generated very quickly. After the system has been defined, the hardware can be exported and SDK can be invoked from Vivado. Software development is done in SDK which provides several application templates including memory tests.  You verified the operation of the hardware by downloading a test application, executing on the processor, and observing the output in the serial terminal window.
