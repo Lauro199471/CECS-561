@@ -76,3 +76,11 @@ These files can be downloaded from either from the Digilent, Inc. webpage (http:
 <p align="center">
  <img src="https://user-images.githubusercontent.com/13907836/51654074-0cd7fa80-1f4b-11e9-9e9c-bc1ace71e3fb.jpg" width="50%" height="50%">
 </p><br><br>
+2-1-4. Once the IP Catalog is open, type “z” into the Search bar, find and double click on <b>ZYNQ7 Processing System</b> entry, or click on the entry and hit the Enter key to add it to the design.
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/13907836/51654173-7952f980-1f4b-11e9-85dc-d45783ca1363.jpg" width="50%" height="50%">
+</p><br><br>
+2-1-5. Notice the message at the top of the Diagram window that <i>Designer Assistance</i> available. Click <i>Run Block Automation</i> and select <b>/processing_system7_0</b>
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/13907836/51654245-c9ca5700-1f4b-11e9-9740-92be12cb0e2d.jpg" width="50%" height="50%">
+</p><br><br>
