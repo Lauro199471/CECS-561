@@ -136,3 +136,12 @@ Click on the   (Regenerate Layout) button and see the following block diagram.
  <img src="https://user-images.githubusercontent.com/13907836/51656499-3f3b2500-1f56-11e9-8d9b-0e80b00e9044.PNG">
 </p><br><br>
 
+3-1-3. Notice that the VHDL file is already <i>Set As the Top module</i> in the design, indicated by the icon <br><br>
+
+3-1-4. Select <b>File > Export > Export hardware</b> and click <b>OK</b>. (<i>Save</i> the project if prompted)<br>
+Note:  Since we do not have any hardware in Programmable Logic (PL) there is no bitstream to generate, hence the <i>Include bitstream</i> option is not necessary at this time
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/13907836/51656640-b8d31300-1f56-11e9-92da-b70327761919.PNG">
+</p><br><br>
+
+3-1-5. Select <b>File > Launch SDK</b> leaving the default settings, and click <b>OK</b> 
