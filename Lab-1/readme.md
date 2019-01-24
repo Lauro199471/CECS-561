@@ -56,7 +56,7 @@ These files can be downloaded from either from the Digilent, Inc. webpage (http:
  <img src="https://user-images.githubusercontent.com/13907836/51652814-cfbd3980-1f45-11e9-8445-7aca5f3c09d4.jpg">
 </p><br><br>
 1-1-7. Click <b>Next</b> <u>two more times</u> to skip <i>Adding Existing IP</i> and <i>Add Constraints</i><br><br>
-1-1-8. In the <i>Default Part</i> form, select <i>Boards</i>, and depending on the board you are using, select <i>ZedBoard</i> or <i>Zybo</i> and click <b>Next</b>. 
+1-1-8. In the <i>Default Part</i> form, select <i>Boards</i>, and depending on the board you are using, select <i>ZedBoard</i> or <i>Zybo</i> and click <b>Next</b>.<br><br>
 <p align="center">
  <img src="https://user-images.githubusercontent.com/13907836/51653183-33943200-1f47-11e9-8147-efdf1978daa6.jpg">
 </p><br><br>
@@ -64,3 +64,7 @@ These files can be downloaded from either from the Digilent, Inc. webpage (http:
 
 <h2>Creating the System Using the IP Integrator </h2>
 <h3>2-1. Use the IP Integrator to create a new Block Design, add the ZYNQ processing system block, and import the provided xml file for the board.</h3><br><br>
+2-1-1. In the Flow Navigator, click <b>Create Block Design</b> under IP Integrator<br><br>
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/13907836/51653754-b1f1d380-1f49-11e9-891f-634c4d1a6349.jpg">
+</p><br><br>
