@@ -86,5 +86,14 @@ These files can be downloaded from either from the Digilent, Inc. webpage (http:
 </p><br><br>
 2-1-6. In the <i>Run Block Automation</i> window, leave the default settings, including <i>Apply Board Preset</i> checked, and click <b>OK</b> 
 <p align="center">
- <img src="https://user-images.githubusercontent.com/13907836/51654313-23cb1c80-1f4c-11e9-9a41-59610f088f44.jpg" width="50%" height="50%">
+ <img src="https://user-images.githubusercontent.com/13907836/51654313-23cb1c80-1f4c-11e9-9a41-59610f088f44.jpg" >
+</p><br><br>
+Once Block Automation has been complete, notice that ports have been automatically added for the DDR and Fixed IO, and some additional ports are now visible. The imported configuration for the Zynq related to the Zybo board has been applied which will now be modified. 
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/13907836/51654380-7e647880-1f4c-11e9-91db-f41f884aacd2.jpg" >
+</p><br><br>
+2-1-7. Double-click on the added block to open its <i>Customization</i> window. 
+Notice now the <i>Customization</i> window shows selected peripherals (with tick marks). This is the default configuration for the board applied by the block automation. 
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/13907836/51654422-b23f9e00-1f4c-11e9-9f69-eca2a21ce5f2.jpg" >
 </p><br><br>
