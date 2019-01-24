@@ -177,4 +177,5 @@ The <b>mem_test</b> project and the board support project <b>mem_test_bsp</b> wi
 <p align="center">
  <img src="https://user-images.githubusercontent.com/13907836/51657949-3731b400-1f5b-11e9-96a9-1ba7c6061f4e.PNG">
 </p><br>
+
 4-1-5. Open the <b>memorytest.c</b> file in the mem_test project (under <i>src</i>), and examine the contents.  This file calls the functions to test the memory
