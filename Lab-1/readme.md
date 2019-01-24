@@ -60,3 +60,4 @@ These files can be downloaded from either from the Digilent, Inc. webpage (http:
 <p align="center">
  <img src="https://user-images.githubusercontent.com/13907836/51653183-33943200-1f47-11e9-8147-efdf1978daa6.jpg">
 </p><br><br>
+1-1-9. Check the <i>Project Summary</i> and click <b>Finish</b> to create an empty Vivado project.   
