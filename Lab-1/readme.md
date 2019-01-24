@@ -124,4 +124,15 @@ Click on the   (Regenerate Layout) button and see the following block diagram.
 <p align="center">
  <img src="https://user-images.githubusercontent.com/13907836/51654874-c389aa00-1f4e-11e9-8df9-232d7768a0c1.jpg" width="50%" height="50%">
 </p><br><br>
-2-2-8. Click on the  (Validate Design) button and make sure that there are no errors. 
+2-2-8. Click on the  (Validate Design) button and make sure that there are no errors.<br> 
+
+<h2>Generate Top-Level and Export to SDK</h2>
+<h3>3-1. Generate IP Integrator Outputs, the top-level HDL, and start SDK by exporting the hardware</h3><br><br>
+
+3-1-1. In the sources panel, right-click on <i>system.bd</i>, and select <b>Generate Output Products</b> … and click <b>Generate</b> to generate the Implementation, Simulation and Synthesis files for the design (You can also click on <b>Generate Block Design</b> in the Flow Navigator pane to do the same)<br><br>
+
+3-1-2. Right-click again on <i>system.bd</i>, and select <b>Create HDL Wrapper</b> … to generate the top-level VHDL model. Leave the <i>Let Vivado manager wrapper and auto-update</i> option selected, and click <b>OK</b><br>The <i>system_wrapper.vhd</i> file will be created and added to the project.  Double-click on the file to see the content in the Auxiliary pane<br>
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/13907836/51656499-3f3b2500-1f56-11e9-8d9b-0e80b00e9044.PNG">
+</p><br><br>
+
