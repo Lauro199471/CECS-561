@@ -50,3 +50,5 @@ These files can be downloaded from either from the Digilent, Inc. webpage (http:
 <p align="center">
  <img src="https://user-images.githubusercontent.com/13907836/51590671-a1851e80-1e9f-11e9-8551-b6311aab45a0.PNG">
 </p><br>
+1-1-5. In the <i>Project Type</i> form select <b>RTL Project</b>, and click <b>Next</b> <br><br>
+1-1-6. In the <i>Add Sources</i> form, select <b>VHDL</b> as the <i>Target language</i> and <b>Mixed</b> as the <i>Simulator language</i>, and click <b>Next</b> 
