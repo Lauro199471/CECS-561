@@ -211,4 +211,17 @@ ZedBoard: Make sure that two micro-usb cables are used between the PC and the PR
 
 <h2>Conclusion</h2>
 
-Vivado and the IP Integrator allow base embedded processor systems and applications to be generated very quickly. After the system has been defined, the hardware can be exported and SDK can be invoked from Vivado. Software development is done in SDK which provides several application templates including memory tests.  You verified the operation of the hardware by downloading a test application, executing on the processor, and observing the output in the serial terminal window.
+Vivado and the IP Integrator allow base embedded processor systems and applications to be generated very quickly. After the system has been defined, the hardware can be exported and SDK can be invoked from Vivado. Software development is done in SDK which provides several application templates including memory tests.  You verified the operation of the hardware by downloading a test application, executing on the processor, and observing the output in the serial terminal window.<br>
+
+Demonstrate the lab on your Zybo board to the instructor and submit your answers to the following questions to Beachboard (Attach your answer to this document and submit it as a single file to Beachboard): <br>
+
+1. After which step we finished building the hardware platform for the embedded system we build in the lab? <br>
+2. Briefly describe the major components in the hardware platform. <br>
+3. What is the top-level design file for hardware platform? Copy the contents in this file that support the answer you provide in the previous question. <br>
+4. What does a bit stream file do? Is there a bit stream file generated for the hardware platform we built in this lab? <br>
+5. What is the step that transitions our design from hardware platform to software platform? What are the tools used for hardware design and software design respectively? What kind of information are passed from hardware design tool to software design tool? <br>
+6. How many projects are created for building the software platform? Briefly describe the key design information provide in each one of them and the role each one of them play in the software platform. <br>
+7. What is a BSP? What information does it provide and what role does it play in building the software platform? <br>
+8. What is the top-level design file for software platform? Briefly describe the key information in this file and support your answer by copying the related contents in this file. <br>
+9. What is an .elf file? Is there an .elf file generated in this lab? <br>
+10. Please provide a screenshot of your embedded system output. <br>
