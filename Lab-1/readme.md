@@ -97,3 +97,8 @@ Notice now the <i>Customization</i> window shows selected peripherals (with tick
 <p align="center">
  <img src="https://user-images.githubusercontent.com/13907836/51654422-b23f9e00-1f4c-11e9-9f69-eca2a21ce5f2.jpg" >
 </p><br><br>
+<h3>2-2. Configure the processing block with just UART 1 peripheral enabled.</h3><br><br>
+2-2-1. A block diagram of the Zynq should now be open again, showing various configurable blocks of the Processing System. <br>
+At this stage, the designer can click on various configurable blocks (highlighted in green) and change the system configuration.<br> 
+Only the UART is required for this lab, so all other peripherals will be deselected.<br><br>
+2-2-2. Click on one of the peripherals (in green) in the <i>IOP Peripherals</i> block, or select the <i>MIO Configuration</i> tab on the left to open the configuration form 
