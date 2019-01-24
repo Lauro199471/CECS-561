@@ -84,3 +84,7 @@ These files can be downloaded from either from the Digilent, Inc. webpage (http:
 <p align="center">
  <img src="https://user-images.githubusercontent.com/13907836/51654245-c9ca5700-1f4b-11e9-9740-92be12cb0e2d.jpg" width="50%" height="50%">
 </p><br><br>
+2-1-6. In the <i>Run Block Automation</i> window, leave the default settings, including <i>Apply Board Preset</i> checked, and click <b>OK</b> 
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/13907836/51654313-23cb1c80-1f4c-11e9-9a41-59610f088f44.jpg" width="50%" height="50%">
+</p><br><br>
