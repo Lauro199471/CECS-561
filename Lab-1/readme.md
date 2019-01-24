@@ -145,3 +145,26 @@ Note:  Since we do not have any hardware in Programmable Logic (PL) there is no 
 </p><br><br>
 
 3-1-5. Select <b>File > Launch SDK</b> leaving the default settings, and click <b>OK</b> 
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/13907836/51656705-05b6e980-1f57-11e9-8b59-4233f92701a8.PNG">
+</p><br>
+
+SDK should now be open. If only the Welcome panel is visible, close or minimize this panel to view the <i>Project Explorer</i> and <i>Preview panel</i>. A Hardware platform project should have been automatically created, and the <i>system_wrapper_hw_platform_0</i> folder should exist in the Project Explorer panel.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/13907836/51656790-4b73b200-1f57-11e9-9519-93984e1ce78d.PNG">
+</p><br>
+
+The system.hdf file (Hardware Description File) for the Hardware platform should open in the preview pane. Double click system.hdf to open it if it is not.<br>  
+Basic information about the hardware configuration of the project can be found in the .hdf file, along with the Address maps for the PS systems, and driver information. The .hdf file is used in the software environment to determine the peripherals available in the system, and their location in the address map
+
+<h2>Generate Memory TestApp in SDK</h2>
+<h3>4-1. Generate memory test application using one of the standard projects template.</h3><br><br>
+4-1-1. In SDK, select <b>File > New > Application Project</b><br><br>
+
+4-1-2. Name the project <b>mem_test</b>, and in the <i>Board Support Package</i> section, leave <i>Create New</i> selected and leave the default name <i>mem_test_bsp</i> and click <b>Next</b>. (Note that this application will run on ps7_cortexa9_0 i.e. core 0 of the two processor cores available.)<br>
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/13907836/51657180-9215dc00-1f58-11e9-9ad8-3b540366e03a.PNG">
+</p><br>
+
+4-1-3. Select <b>Memory Tests</b> from the <i>Available Templates</i> window, and click <b>Finish</b>.<br>
