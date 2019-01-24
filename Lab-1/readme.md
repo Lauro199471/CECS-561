@@ -168,3 +168,13 @@ Basic information about the hardware configuration of the project can be found i
 </p><br>
 
 4-1-3. Select <b>Memory Tests</b> from the <i>Available Templates</i> window, and click <b>Finish</b>.<br>
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/13907836/51657266-fafd5400-1f58-11e9-8369-aa62ac4a5d65.PNG">
+</p><br>
+The <b>mem_test</b> project and the board support project <b>mem_test_bsp</b> will be created and will be visible in the Project Explorer window of SDK, and the two projects will be automatically built. You can monitor the progress in the Console panel.<br><br>
+
+4-1-4. Expand folders in the Project Explorer view, and observe that there are three projects – <i>system_wrapper_hw_platform_0, mem_test_bsp, and mem_test.</i>The <i>mem_test</i> project is the application that we will use to verify the functionality of the design.  The hw_platform includes the ps7_init function which initializes the PS as part of the first stage bootloader, and mem_test_bsp is the board support package.
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/13907836/51657949-3731b400-1f5b-11e9-96a9-1ba7c6061f4e.PNG">
+</p><br>
+4-1-5. Open the <b>memorytest.c</b> file in the mem_test project (under <i>src</i>), and examine the contents.  This file calls the functions to test the memory
