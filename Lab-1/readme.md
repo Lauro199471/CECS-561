@@ -69,3 +69,10 @@ These files can be downloaded from either from the Digilent, Inc. webpage (http:
  <img src="https://user-images.githubusercontent.com/13907836/51653754-b1f1d380-1f49-11e9-891f-634c4d1a6349.jpg" width="50%" height="50%">
 </p><br><br>
 2-1-2. Enter <b>system</b> for the design name and click <b>OK</b>
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/13907836/51653990-b23e9e80-1f4a-11e9-8e84-d41d33e9e80e.jpg" width="50%" height="50%">
+</p><br><br>
+2-1-3. IP from the catalog can be added in different ways. Click the <i>Add IP icon</i> in the block diagram side bar, press Ctrl + I, click the <i>Add IP icon</i> in the empty Diagram workspace, or right-click anywhere in the Diagram workspace and select Add IP.<br><br>
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/13907836/51654074-0cd7fa80-1f4b-11e9-9e9c-bc1ace71e3fb.jpg" width="50%" height="50%">
+</p><br><br>
