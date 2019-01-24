@@ -98,7 +98,21 @@ Notice now the <i>Customization</i> window shows selected peripherals (with tick
  <img src="https://user-images.githubusercontent.com/13907836/51654422-b23f9e00-1f4c-11e9-9f69-eca2a21ce5f2.jpg" >
 </p><br><br>
 <h3>2-2. Configure the processing block with just UART 1 peripheral enabled.</h3><br><br>
+
 2-2-1. A block diagram of the Zynq should now be open again, showing various configurable blocks of the Processing System. <br>
 At this stage, the designer can click on various configurable blocks (highlighted in green) and change the system configuration.<br> 
 Only the UART is required for this lab, so all other peripherals will be deselected.<br><br>
-2-2-2. Click on one of the peripherals (in green) in the <i>IOP Peripherals</i> block, or select the <i>MIO Configuration</i> tab on the left to open the configuration form 
+
+2-2-2. Click on one of the peripherals (in green) in the <i>IOP Peripherals</i> block, or select the <i>MIO Configuration</i> tab on the left to open the configuration form<br><br>
+
+2-2-3. Expand I/O peripherals if necessary, and ensure all the following <i>I/O peripherals are deselected</i> except <i>UART 1.</i><br>
+i.e. Remove:<br>
+<i>ENET 0</i><br>
+<i>USB 0</i> <br>
+<i>SD 0</i> <br>
+Expand <b>GPIO</b> to deselect <i>GPIO MIO</i> <br>
+Expand <b>Memory Interfaces</b> to deselect <i>Quad SPI Flash</i> 
+Expand <b>Application Processor Unit</b> to disable <i>Timer 0</i>. 
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/13907836/51654683-e36c9e00-1f4d-11e9-9c16-caac478fe6b6.jpg" >
+</p><br><br>
