@@ -1,7 +1,7 @@
 --Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
 --Tool Version: Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
---Date        : Thu Jan 24 10:27:28 2019
+--Date        : Thu Jan 24 22:33:30 2019
 --Host        : Lauro-Laptop running 64-bit major release  (build 9200)
 --Command     : generate_target system.bd
 --Design      : system
@@ -44,7 +44,6 @@ end system;
 architecture STRUCTURE of system is
   component system_processing_system7_0_0 is
   port (
-    FCLK_CLK0 : out STD_LOGIC;
     MIO : inout STD_LOGIC_VECTOR ( 53 downto 0 );
     DDR_CAS_n : inout STD_LOGIC;
     DDR_CKE : inout STD_LOGIC;
@@ -89,7 +88,6 @@ architecture STRUCTURE of system is
   signal processing_system7_0_FIXED_IO_PS_CLK : STD_LOGIC;
   signal processing_system7_0_FIXED_IO_PS_PORB : STD_LOGIC;
   signal processing_system7_0_FIXED_IO_PS_SRSTB : STD_LOGIC;
-  signal NLW_processing_system7_0_FCLK_CLK0_UNCONNECTED : STD_LOGIC;
   attribute X_INTERFACE_INFO : string;
   attribute X_INTERFACE_INFO of DDR_cas_n : signal is "xilinx.com:interface:ddrx:1.0 DDR CAS_N";
   attribute X_INTERFACE_INFO of DDR_ck_n : signal is "xilinx.com:interface:ddrx:1.0 DDR CK_N";
@@ -135,7 +133,6 @@ processing_system7_0: component system_processing_system7_0_0
       DDR_VRN => FIXED_IO_ddr_vrn,
       DDR_VRP => FIXED_IO_ddr_vrp,
       DDR_WEB => DDR_we_n,
-      FCLK_CLK0 => NLW_processing_system7_0_FCLK_CLK0_UNCONNECTED,
       MIO(53 downto 0) => FIXED_IO_mio(53 downto 0),
       PS_CLK => FIXED_IO_ps_clk,
       PS_PORB => FIXED_IO_ps_porb,

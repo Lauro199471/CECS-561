@@ -1,10 +1,10 @@
 -- Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
--- Date        : Thu Jan 24 10:28:43 2019
+-- Date        : Thu Jan 24 22:34:42 2019
 -- Host        : Lauro-Laptop running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode funcsim {c:/Users/Lauro
---               Cabral/Documents/CECS-561/Lab1/Lab1.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0_sim_netlist.vhdl}
+-- Command     : write_vhdl -force -mode funcsim
+--               c:/lab1/lab1.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0_sim_netlist.vhdl
 -- Design      : system_processing_system7_0_0
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -719,7 +719,7 @@ entity system_processing_system7_0_0_processing_system7_v5_5_processing_system7 
   attribute C_EN_EMIO_TRACE : integer;
   attribute C_EN_EMIO_TRACE of system_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is 0;
   attribute C_FCLK_CLK0_BUF : string;
-  attribute C_FCLK_CLK0_BUF of system_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is "TRUE";
+  attribute C_FCLK_CLK0_BUF of system_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is "FALSE";
   attribute C_FCLK_CLK1_BUF : string;
   attribute C_FCLK_CLK1_BUF of system_processing_system7_0_0_processing_system7_v5_5_processing_system7 : entity is "FALSE";
   attribute C_FCLK_CLK2_BUF : string;
@@ -827,7 +827,6 @@ architecture STRUCTURE of system_processing_system7_0_0_processing_system7_v5_5_
   signal \<const1>\ : STD_LOGIC;
   signal ENET0_MDIO_T_n : STD_LOGIC;
   signal ENET1_MDIO_T_n : STD_LOGIC;
-  signal FCLK_CLK_unbuffered : STD_LOGIC_VECTOR ( 0 to 0 );
   signal I2C0_SCL_T_n : STD_LOGIC;
   signal I2C0_SDA_T_n : STD_LOGIC;
   signal I2C1_SCL_T_n : STD_LOGIC;
@@ -937,7 +936,6 @@ architecture STRUCTURE of system_processing_system7_0_0_processing_system7_v5_5_
   attribute BOX_TYPE of PS_CLK_BIBUF : label is "PRIMITIVE";
   attribute BOX_TYPE of PS_PORB_BIBUF : label is "PRIMITIVE";
   attribute BOX_TYPE of PS_SRSTB_BIBUF : label is "PRIMITIVE";
-  attribute BOX_TYPE of \buffer_fclk_clk_0.FCLK_CLK_0_BUFG\ : label is "PRIMITIVE";
   attribute BOX_TYPE of \genblk13[0].MIO_BIBUF\ : label is "PRIMITIVE";
   attribute BOX_TYPE of \genblk13[10].MIO_BIBUF\ : label is "PRIMITIVE";
   attribute BOX_TYPE of \genblk13[11].MIO_BIBUF\ : label is "PRIMITIVE";
@@ -1949,7 +1947,7 @@ PS7_i: unisim.vcomponents.PS7
       FCLKCLK(3) => FCLK_CLK3,
       FCLKCLK(2) => FCLK_CLK2,
       FCLKCLK(1) => FCLK_CLK1,
-      FCLKCLK(0) => FCLK_CLK_unbuffered(0),
+      FCLKCLK(0) => FCLK_CLK0,
       FCLKCLKTRIGN(3 downto 0) => B"0000",
       FCLKRESETN(3) => FCLK_RESET3_N,
       FCLKRESETN(2) => FCLK_RESET2_N,
@@ -2574,11 +2572,6 @@ SPI1_SS_T_INST_0: unisim.vcomponents.LUT1
 VCC: unisim.vcomponents.VCC
      port map (
       P => \<const1>\
-    );
-\buffer_fclk_clk_0.FCLK_CLK_0_BUFG\: unisim.vcomponents.BUFG
-     port map (
-      I => FCLK_CLK_unbuffered(0),
-      O => FCLK_CLK0
     );
 \genblk13[0].MIO_BIBUF\: unisim.vcomponents.BIBUF
      port map (
@@ -3359,7 +3352,6 @@ library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
 entity system_processing_system7_0_0 is
   port (
-    FCLK_CLK0 : out STD_LOGIC;
     MIO : inout STD_LOGIC_VECTOR ( 53 downto 0 );
     DDR_CAS_n : inout STD_LOGIC;
     DDR_CKE : inout STD_LOGIC;
@@ -3438,6 +3430,7 @@ architecture STRUCTURE of system_processing_system7_0_0 is
   signal NLW_inst_ENET1_SOF_RX_UNCONNECTED : STD_LOGIC;
   signal NLW_inst_ENET1_SOF_TX_UNCONNECTED : STD_LOGIC;
   signal NLW_inst_EVENT_EVENTO_UNCONNECTED : STD_LOGIC;
+  signal NLW_inst_FCLK_CLK0_UNCONNECTED : STD_LOGIC;
   signal NLW_inst_FCLK_CLK1_UNCONNECTED : STD_LOGIC;
   signal NLW_inst_FCLK_CLK2_UNCONNECTED : STD_LOGIC;
   signal NLW_inst_FCLK_CLK3_UNCONNECTED : STD_LOGIC;
@@ -3731,7 +3724,7 @@ architecture STRUCTURE of system_processing_system7_0_0 is
   attribute C_EN_EMIO_TRACE : integer;
   attribute C_EN_EMIO_TRACE of inst : label is 0;
   attribute C_FCLK_CLK0_BUF : string;
-  attribute C_FCLK_CLK0_BUF of inst : label is "TRUE";
+  attribute C_FCLK_CLK0_BUF of inst : label is "FALSE";
   attribute C_FCLK_CLK1_BUF : string;
   attribute C_FCLK_CLK1_BUF of inst : label is "FALSE";
   attribute C_FCLK_CLK2_BUF : string;
@@ -3842,11 +3835,9 @@ architecture STRUCTURE of system_processing_system7_0_0 is
   attribute X_INTERFACE_INFO of DDR_VRN : signal is "xilinx.com:display_processing_system7:fixedio:1.0 FIXED_IO DDR_VRN";
   attribute X_INTERFACE_INFO of DDR_VRP : signal is "xilinx.com:display_processing_system7:fixedio:1.0 FIXED_IO DDR_VRP";
   attribute X_INTERFACE_INFO of DDR_WEB : signal is "xilinx.com:interface:ddrx:1.0 DDR WE_N";
-  attribute X_INTERFACE_INFO of FCLK_CLK0 : signal is "xilinx.com:signal:clock:1.0 FCLK_CLK0 CLK";
-  attribute X_INTERFACE_PARAMETER : string;
-  attribute X_INTERFACE_PARAMETER of FCLK_CLK0 : signal is "XIL_INTERFACENAME FCLK_CLK0, FREQ_HZ 100000000, PHASE 0.000, CLK_DOMAIN system_processing_system7_0_0_FCLK_CLK0";
   attribute X_INTERFACE_INFO of PS_CLK : signal is "xilinx.com:display_processing_system7:fixedio:1.0 FIXED_IO PS_CLK";
   attribute X_INTERFACE_INFO of PS_PORB : signal is "xilinx.com:display_processing_system7:fixedio:1.0 FIXED_IO PS_PORB";
+  attribute X_INTERFACE_PARAMETER : string;
   attribute X_INTERFACE_PARAMETER of PS_PORB : signal is "XIL_INTERFACENAME FIXED_IO, CAN_DEBUG false";
   attribute X_INTERFACE_INFO of PS_SRSTB : signal is "xilinx.com:display_processing_system7:fixedio:1.0 FIXED_IO PS_SRSTB";
   attribute X_INTERFACE_INFO of DDR_Addr : signal is "xilinx.com:interface:ddrx:1.0 DDR ADDR";
@@ -3976,7 +3967,7 @@ inst: entity work.system_processing_system7_0_0_processing_system7_v5_5_processi
       EVENT_EVENTO => NLW_inst_EVENT_EVENTO_UNCONNECTED,
       EVENT_STANDBYWFE(1 downto 0) => NLW_inst_EVENT_STANDBYWFE_UNCONNECTED(1 downto 0),
       EVENT_STANDBYWFI(1 downto 0) => NLW_inst_EVENT_STANDBYWFI_UNCONNECTED(1 downto 0),
-      FCLK_CLK0 => FCLK_CLK0,
+      FCLK_CLK0 => NLW_inst_FCLK_CLK0_UNCONNECTED,
       FCLK_CLK1 => NLW_inst_FCLK_CLK1_UNCONNECTED,
       FCLK_CLK2 => NLW_inst_FCLK_CLK2_UNCONNECTED,
       FCLK_CLK3 => NLW_inst_FCLK_CLK3_UNCONNECTED,

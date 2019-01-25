@@ -3,10 +3,10 @@
 <!--                                                         -->
 <!-- Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="38" Path="C:/Users/Lauro Cabral/Documents/CECS-561/Lab1/Lab1.xpr">
+<Project Version="7" Minor="38" Path="C:/lab1/lab1.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
-    <Option Name="Id" Val="26bf7a1aac0d4af0b7670037f6a2ba9c"/>
+    <Option Name="Id" Val="5b2e0ea6b9c64261a3903827906eea71"/>
     <Option Name="Part" Val="xc7z010clg400-1"/>
     <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
     <Option Name="CompiledLibDirXSim" Val=""/>

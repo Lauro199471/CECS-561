@@ -56,7 +56,6 @@
 `timescale 1ns/1ps
 
 module system_processing_system7_0_0 (
-FCLK_CLK0, 
 MIO, 
 DDR_CAS_n, 
 DDR_CKE, 
@@ -79,7 +78,6 @@ PS_SRSTB,
 PS_CLK, 
 PS_PORB 
 );
-output FCLK_CLK0;
 input [53 : 0] MIO;
 input DDR_CAS_n;
 input DDR_CKE;
@@ -117,7 +115,7 @@ input PS_PORB;
     .C_S_AXI_HP2_DATA_WIDTH(64),
     .C_S_AXI_HP3_DATA_WIDTH(64),
     .C_HIGH_OCM_EN(0),
-    .C_FCLK_CLK0_FREQ(100.0),
+    .C_FCLK_CLK0_FREQ(10.0),
     .C_FCLK_CLK1_FREQ(10.0),
     .C_FCLK_CLK2_FREQ(10.0),
     .C_FCLK_CLK3_FREQ(10.0),
@@ -479,7 +477,7 @@ input PS_PORB;
     .S_AXI_HP3_WID(6'B0),
     .S_AXI_HP3_WDATA(64'B0),
     .S_AXI_HP3_WSTRB(8'B0),
-    .FCLK_CLK0(FCLK_CLK0),
+    .FCLK_CLK0(),
 	
     .FCLK_CLK1(),
 	

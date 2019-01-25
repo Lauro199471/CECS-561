@@ -1,4 +1,4 @@
-verilog xil_defaultlib --include "../../../../Lab1.srcs/sources_1/bd/system/ipshared/ec67/hdl" --include "../../../../Lab1.srcs/sources_1/bd/system/ipshared/5bb9/hdl/verilog" --include "../../../../Lab1.srcs/sources_1/bd/system/ipshared/70fd/hdl" \
+verilog xil_defaultlib --include "../../../../lab1.srcs/sources_1/bd/system/ipshared/ec67/hdl" --include "../../../../lab1.srcs/sources_1/bd/system/ipshared/5bb9/hdl/verilog" --include "../../../../lab1.srcs/sources_1/bd/system/ipshared/70fd/hdl" \
 "../../../bd/system/ip/system_processing_system7_0_0/sim/system_processing_system7_0_0.v" \
 
 verilog xil_defaultlib "glbl.v"

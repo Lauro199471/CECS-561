@@ -1,10 +1,10 @@
 // Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
-// Date        : Thu Jan 24 10:28:43 2019
+// Date        : Thu Jan 24 22:34:42 2019
 // Host        : Lauro-Laptop running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode funcsim {c:/Users/Lauro
-//               Cabral/Documents/CECS-561/Lab1/Lab1.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0_sim_netlist.v}
+// Command     : write_verilog -force -mode funcsim
+//               c:/lab1/lab1.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0_sim_netlist.v
 // Design      : system_processing_system7_0_0
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -15,8 +15,7 @@
 (* CHECK_LICENSE_TYPE = "system_processing_system7_0_0,processing_system7_v5_5_processing_system7,{}" *) (* DowngradeIPIdentifiedWarnings = "yes" *) (* X_CORE_INFO = "processing_system7_v5_5_processing_system7,Vivado 2018.2" *) 
 (* NotValidForBitStream *)
 module system_processing_system7_0_0
-   (FCLK_CLK0,
-    MIO,
+   (MIO,
     DDR_CAS_n,
     DDR_CKE,
     DDR_Clk_n,
@@ -37,7 +36,6 @@ module system_processing_system7_0_0
     PS_SRSTB,
     PS_CLK,
     PS_PORB);
-  (* X_INTERFACE_INFO = "xilinx.com:signal:clock:1.0 FCLK_CLK0 CLK" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME FCLK_CLK0, FREQ_HZ 100000000, PHASE 0.000, CLK_DOMAIN system_processing_system7_0_0_FCLK_CLK0" *) output FCLK_CLK0;
   (* X_INTERFACE_INFO = "xilinx.com:display_processing_system7:fixedio:1.0 FIXED_IO MIO" *) inout [53:0]MIO;
   (* X_INTERFACE_INFO = "xilinx.com:interface:ddrx:1.0 DDR CAS_N" *) inout DDR_CAS_n;
   (* X_INTERFACE_INFO = "xilinx.com:interface:ddrx:1.0 DDR CKE" *) inout DDR_CKE;
@@ -77,7 +75,6 @@ module system_processing_system7_0_0
   wire DDR_VRN;
   wire DDR_VRP;
   wire DDR_WEB;
-  wire FCLK_CLK0;
   wire [53:0]MIO;
   wire PS_CLK;
   wire PS_PORB;
@@ -127,6 +124,7 @@ module system_processing_system7_0_0
   wire NLW_inst_ENET1_SOF_RX_UNCONNECTED;
   wire NLW_inst_ENET1_SOF_TX_UNCONNECTED;
   wire NLW_inst_EVENT_EVENTO_UNCONNECTED;
+  wire NLW_inst_FCLK_CLK0_UNCONNECTED;
   wire NLW_inst_FCLK_CLK1_UNCONNECTED;
   wire NLW_inst_FCLK_CLK2_UNCONNECTED;
   wire NLW_inst_FCLK_CLK3_UNCONNECTED;
@@ -412,7 +410,7 @@ module system_processing_system7_0_0
   (* C_EN_EMIO_ENET1 = "0" *) 
   (* C_EN_EMIO_PJTAG = "0" *) 
   (* C_EN_EMIO_TRACE = "0" *) 
-  (* C_FCLK_CLK0_BUF = "TRUE" *) 
+  (* C_FCLK_CLK0_BUF = "FALSE" *) 
   (* C_FCLK_CLK1_BUF = "FALSE" *) 
   (* C_FCLK_CLK2_BUF = "FALSE" *) 
   (* C_FCLK_CLK3_BUF = "FALSE" *) 
@@ -579,7 +577,7 @@ module system_processing_system7_0_0
         .EVENT_EVENTO(NLW_inst_EVENT_EVENTO_UNCONNECTED),
         .EVENT_STANDBYWFE(NLW_inst_EVENT_STANDBYWFE_UNCONNECTED[1:0]),
         .EVENT_STANDBYWFI(NLW_inst_EVENT_STANDBYWFI_UNCONNECTED[1:0]),
-        .FCLK_CLK0(FCLK_CLK0),
+        .FCLK_CLK0(NLW_inst_FCLK_CLK0_UNCONNECTED),
         .FCLK_CLK1(NLW_inst_FCLK_CLK1_UNCONNECTED),
         .FCLK_CLK2(NLW_inst_FCLK_CLK2_UNCONNECTED),
         .FCLK_CLK3(NLW_inst_FCLK_CLK3_UNCONNECTED),
@@ -1152,7 +1150,7 @@ endmodule
 
 (* C_DM_WIDTH = "4" *) (* C_DQS_WIDTH = "4" *) (* C_DQ_WIDTH = "32" *) 
 (* C_EMIO_GPIO_WIDTH = "64" *) (* C_EN_EMIO_ENET0 = "0" *) (* C_EN_EMIO_ENET1 = "0" *) 
-(* C_EN_EMIO_PJTAG = "0" *) (* C_EN_EMIO_TRACE = "0" *) (* C_FCLK_CLK0_BUF = "TRUE" *) 
+(* C_EN_EMIO_PJTAG = "0" *) (* C_EN_EMIO_TRACE = "0" *) (* C_FCLK_CLK0_BUF = "FALSE" *) 
 (* C_FCLK_CLK1_BUF = "FALSE" *) (* C_FCLK_CLK2_BUF = "FALSE" *) (* C_FCLK_CLK3_BUF = "FALSE" *) 
 (* C_GP0_EN_MODIFIABLE_TXN = "1" *) (* C_GP1_EN_MODIFIABLE_TXN = "1" *) (* C_INCLUDE_ACP_TRANS_CHECK = "0" *) 
 (* C_INCLUDE_TRACE_BUFFER = "0" *) (* C_IRQ_F2P_MODE = "DIRECT" *) (* C_MIO_PRIMITIVE = "54" *) 
@@ -2650,7 +2648,6 @@ module system_processing_system7_0_0_processing_system7_v5_5_processing_system7
   wire FCLK_CLK1;
   wire FCLK_CLK2;
   wire FCLK_CLK3;
-  wire [0:0]FCLK_CLK_unbuffered;
   wire FCLK_RESET0_N;
   wire FCLK_RESET1_N;
   wire FCLK_RESET2_N;
@@ -3930,7 +3927,7 @@ module system_processing_system7_0_0_processing_system7_v5_5_processing_system7
         .EVENTEVENTO(EVENT_EVENTO),
         .EVENTSTANDBYWFE(EVENT_STANDBYWFE),
         .EVENTSTANDBYWFI(EVENT_STANDBYWFI),
-        .FCLKCLK({FCLK_CLK3,FCLK_CLK2,FCLK_CLK1,FCLK_CLK_unbuffered}),
+        .FCLKCLK({FCLK_CLK3,FCLK_CLK2,FCLK_CLK1,FCLK_CLK0}),
         .FCLKCLKTRIGN({1'b0,1'b0,1'b0,1'b0}),
         .FCLKRESETN({FCLK_RESET3_N,FCLK_RESET2_N,FCLK_RESET1_N,FCLK_RESET0_N}),
         .FPGAIDLEN(FPGA_IDLE_N),
@@ -4440,10 +4437,6 @@ module system_processing_system7_0_0_processing_system7_v5_5_processing_system7
         .O(SPI1_SS_T));
   VCC VCC
        (.P(\<const1> ));
-  (* BOX_TYPE = "PRIMITIVE" *) 
-  BUFG \buffer_fclk_clk_0.FCLK_CLK_0_BUFG 
-       (.I(FCLK_CLK_unbuffered),
-        .O(FCLK_CLK0));
   (* BOX_TYPE = "PRIMITIVE" *) 
   BIBUF \genblk13[0].MIO_BIBUF 
        (.IO(buffered_MIO[0]),
