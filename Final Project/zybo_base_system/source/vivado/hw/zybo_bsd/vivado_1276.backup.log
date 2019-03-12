@@ -1,0 +1,356 @@
+#-----------------------------------------------------------
+# Vivado v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Mon Mar 11 19:30:53 2019
+# Process ID: 1276
+# Current directory: C:/Users/lauro/OneDrive/Desktop/zybo-zynq/workspace/zybo_base_system/source/vivado/hw/zybo_bsd
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11580 C:\Users\lauro\OneDrive\Desktop\zybo-zynq\workspace\zybo_base_system\source\vivado\hw\zybo_bsd\zybo_bsd.xpr
+# Log file: C:/Users/lauro/OneDrive/Desktop/zybo-zynq/workspace/zybo_base_system/source/vivado/hw/zybo_bsd/vivado.log
+# Journal file: C:/Users/lauro/OneDrive/Desktop/zybo-zynq/workspace/zybo_base_system/source/vivado/hw/zybo_bsd\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/lauro/OneDrive/Desktop/zybo-zynq/workspace/zybo_base_system/source/vivado/hw/zybo_bsd/zybo_bsd.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/lauro/OneDrive/Desktop/zybo-zynq/workspace/zybo_base_system/source/vivado/hw/zybo_bsd'
+INFO: [Project 1-313] Project file moved from '/home/jlgutierrez/Development/zybo-zynq/workspace/zybo_base_system/source/vivado/hw/zybo_bsd' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [Project 1-230] Project 'zybo_bsd.xpr' upgraded for this version of Vivado.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/lauro/OneDrive/Desktop/zybo-zynq/workspace/zybo_base_system/source/vivado/hw/ip_repo/myLED_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'c:/Users/lauro/OneDrive/Desktop/zybo-zynq/workspace/zybo_base_system/source/vivado/hw/ip_repo/myLED_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/lauro/OneDrive/Desktop/zybo-zynq/workspace/zybo_base_system/source/vivado/hw/ip_repo/myLED_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/lauro/OneDrive/Desktop/zybo-zynq/workspace/zybo_base_system/source/vivado/hw/lib'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.1/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'system.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+system_axi_vdma_1_1
+system_BTNs_4Bits_0
+system_SWs_4Bits_2
+system_axi_protocol_converter_0_0
+system_vdd_1
+system_ground_0
+system_axi_vdma_0_0
+system_processing_system7_0_0
+system_xlconstant_0_2
+system_xbar_0
+system_xbar_1
+system_m00_regslice_0
+system_m01_regslice_0
+system_m02_regslice_0
+system_m03_regslice_0
+system_m04_regslice_0
+system_m05_regslice_0
+system_m06_regslice_0
+system_s00_mmu_0
+system_m07_regslice_0
+system_auto_pc_0
+
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 853.719 ; gain = 198.066
+update_compile_order -fileset sources_1
+report_ip_status -name ip_status 
+open_bd_design {C:/Users/lauro/OneDrive/Desktop/zybo-zynq/workspace/zybo_base_system/source/vivado/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/system.bd}
+Adding cell -- Digilent:digilent:axi_dispctrl:1.0 - axi_dispctrl_0
+Adding cell -- Digilent:digilent:axi_dispctrl:1.0 - axi_dispctrl_1
+Adding cell -- analogdeviceinc.com:adi:axi_i2s_adi:1.0 - axi_i2s_adi_1
+Adding cell -- digilentinc.com:digilent:hdmi_tx:1.0 - hdmi_tx_0
+Adding cell -- xilinx.com:ip:axi_gpio:2.0 - BTNs_4Bits
+Adding cell -- xilinx.com:ip:axi_gpio:2.0 - SWs_4Bits
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - axi_protocol_converter_0
+Adding cell -- xilinx.com:ip:axi_vdma:6.2 - axi_vdma_0
+Adding cell -- xilinx.com:ip:axi_vdma:6.2 - axi_vdma_1
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - ground
+Adding cell -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - vdd
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding cell -- Digilent:user:myLED:1.0 - myLED_0
+Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding cell -- xilinx.com:ip:axi_mmu:2.1 - s00_mmu
+Adding cell -- xilinx.com:ip:axi_register_slice:2.1 - m07_regslice
+Adding cell -- xilinx.com:ip:axi_register_slice:2.1 - m06_regslice
+Adding cell -- xilinx.com:ip:axi_register_slice:2.1 - m05_regslice
+Adding cell -- xilinx.com:ip:axi_register_slice:2.1 - m04_regslice
+Adding cell -- xilinx.com:ip:axi_register_slice:2.1 - m03_regslice
+Adding cell -- xilinx.com:ip:axi_register_slice:2.1 - m02_regslice
+Adding cell -- xilinx.com:ip:axi_register_slice:2.1 - m01_regslice
+Adding cell -- xilinx.com:ip:axi_register_slice:2.1 - m00_regslice
+Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Successfully read diagram <system> from BD file <C:/Users/lauro/OneDrive/Desktop/zybo-zynq/workspace/zybo_base_system/source/vivado/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/system.bd>
+set_property board_part digilentinc.com:zybo:part0:1.0 [current_project]
+report_ip_status -name ip_status 
+export_ip_user_files -of_objects [get_ips  {system_processing_system7_0_axi_periph_2 system_SWs_4Bits_2 system_ground_0 system_BTNs_4Bits_0 system_axi_vdma_0_0 system_processing_system7_0_0 system_axi_protocol_converter_0_0 system_xlconstant_0_2 system_axi_mem_intercon_0 system_axi_vdma_1_1 system_vdd_1}] -no_script -reset -quiet
+upgrade_ip [get_ips  {system_processing_system7_0_axi_periph_2 system_SWs_4Bits_2 system_ground_0 system_BTNs_4Bits_0 system_axi_vdma_0_0 system_processing_system7_0_0 system_axi_protocol_converter_0_0 system_xlconstant_0_2 system_axi_mem_intercon_0 system_axi_vdma_1_1 system_vdd_1}] -log ip_upgrade.log
+Upgrading 'C:/Users/lauro/OneDrive/Desktop/zybo-zynq/workspace/zybo_base_system/source/vivado/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/system.bd'
+INFO: [IP_Flow 19-3422] Upgraded system_BTNs_4Bits_0 (AXI GPIO 2.0) from revision 6 to revision 10
+INFO: [IP_Flow 19-3422] Upgraded system_SWs_4Bits_2 (AXI GPIO 2.0) from revision 6 to revision 10
+INFO: [IP_Flow 19-3422] Upgraded system_axi_mem_intercon_0 (AXI Interconnect 2.1) from revision 5 to revision 9
+INFO: [IP_Flow 19-3422] Upgraded system_axi_protocol_converter_0_0 (AXI Protocol Converter 2.1) from revision 4 to revision 8
+INFO: [IP_Flow 19-3422] Upgraded system_axi_vdma_0_0 (AXI Video Direct Memory Access 6.2) from revision 2 to revision 7
+INFO: [IP_Flow 19-3422] Upgraded system_axi_vdma_1_1 (AXI Video Direct Memory Access 6.2) from revision 2 to revision 7
+INFO: [IP_Flow 19-3422] Upgraded system_ground_0 (Constant 1.1) from revision 1 to revision 2
+INFO: [IP_Flow 19-3422] Upgraded system_processing_system7_0_0 (ZYNQ7 Processing System 5.5) from revision 0 to revision 3
+INFO: [IP_Flow 19-3422] Upgraded system_processing_system7_0_axi_periph_2 (AXI Interconnect 2.1) from revision 5 to revision 9
+INFO: [IP_Flow 19-3422] Upgraded system_vdd_1 (Constant 1.1) from revision 1 to revision 2
+INFO: [IP_Flow 19-3422] Upgraded system_xlconstant_0_2 (Constant 1.1) from revision 1 to revision 2
+Wrote  : <C:/Users/lauro/OneDrive/Desktop/zybo-zynq/workspace/zybo_base_system/source/vivado/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/system.bd> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/lauro/OneDrive/Desktop/zybo-zynq/workspace/zybo_base_system/source/vivado/hw/zybo_bsd/ip_upgrade.log'.
+upgrade_ip: Time (s): cpu = 00:00:23 ; elapsed = 00:00:28 . Memory (MB): peak = 1075.707 ; gain = 119.063
+generate_target all [get_files  C:/Users/lauro/OneDrive/Desktop/zybo-zynq/workspace/zybo_base_system/source/vivado/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/system.bd]
+CRITICAL WARNING: [BD 41-1348] Reset pin /axi_dispctrl_0/s_axi_aresetn (associated clock /axi_dispctrl_0/s_axi_aclk) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET1_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /processing_system7_0/FCLK_CLK0.
+CRITICAL WARNING: [BD 41-1348] Reset pin /axi_dispctrl_0/s_axis_mm2s_aresetn (associated clock /axi_dispctrl_0/s_axis_mm2s_aclk) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET1_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /axi_dispctrl_0/PXL_CLK_O.
+CRITICAL WARNING: [BD 41-1348] Reset pin /axi_dispctrl_1/s_axi_aresetn (associated clock /axi_dispctrl_1/s_axi_aclk) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET1_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /processing_system7_0/FCLK_CLK0.
+CRITICAL WARNING: [BD 41-1348] Reset pin /axi_dispctrl_1/s_axis_mm2s_aresetn (associated clock /axi_dispctrl_1/s_axis_mm2s_aclk) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET1_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /axi_dispctrl_1/PXL_CLK_O.
+CRITICAL WARNING: [BD 41-1348] Reset pin /axi_i2s_adi_1/S_AXI_ARESETN (associated clock /axi_i2s_adi_1/S_AXI_ACLK) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET1_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /processing_system7_0/FCLK_CLK0.
+CRITICAL WARNING: [BD 41-1348] Reset pin /myLED_0/s_axi_aresetn (associated clock /myLED_0/s_axi_aclk) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET1_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /processing_system7_0/FCLK_CLK0.
+CRITICAL WARNING: [BD 41-1348] Reset pin /BTNs_4Bits/s_axi_aresetn (associated clock /BTNs_4Bits/s_axi_aclk) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET1_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /processing_system7_0/FCLK_CLK0.
+CRITICAL WARNING: [BD 41-1348] Reset pin /SWs_4Bits/s_axi_aresetn (associated clock /SWs_4Bits/s_axi_aclk) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET1_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /processing_system7_0/FCLK_CLK0.
+CRITICAL WARNING: [BD 41-1348] Reset pin /axi_mem_intercon/S00_ARESETN (associated clock /axi_mem_intercon/S00_ACLK) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET1_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /processing_system7_0/FCLK_CLK1.
+CRITICAL WARNING: [BD 41-1348] Reset pin /axi_mem_intercon/S01_ARESETN (associated clock /axi_mem_intercon/S01_ACLK) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET1_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /processing_system7_0/FCLK_CLK1.
+CRITICAL WARNING: [BD 41-1348] Reset pin /axi_mem_intercon/M00_ARESETN (associated clock /axi_mem_intercon/M00_ACLK) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET1_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /processing_system7_0/FCLK_CLK1.
+CRITICAL WARNING: [BD 41-1348] Reset pin /axi_protocol_converter_0/aresetn (associated clock /axi_protocol_converter_0/aclk) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET0_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /processing_system7_0/FCLK_CLK0.
+CRITICAL WARNING: [BD 41-1348] Reset pin /axi_vdma_0/axi_resetn (associated clock /axi_vdma_0/s_axi_lite_aclk) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET1_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /processing_system7_0/FCLK_CLK0.
+CRITICAL WARNING: [BD 41-1348] Reset pin /axi_vdma_1/axi_resetn (associated clock /axi_vdma_1/s_axi_lite_aclk) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET1_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /processing_system7_0/FCLK_CLK0.
+CRITICAL WARNING: [BD 41-1348] Reset pin /processing_system7_0_axi_periph/S00_ARESETN (associated clock /processing_system7_0_axi_periph/S00_ACLK) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET1_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /processing_system7_0/FCLK_CLK0.
+CRITICAL WARNING: [BD 41-1348] Reset pin /processing_system7_0_axi_periph/M00_ARESETN (associated clock /processing_system7_0_axi_periph/M00_ACLK) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET1_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /processing_system7_0/FCLK_CLK0.
+CRITICAL WARNING: [BD 41-1348] Reset pin /processing_system7_0_axi_periph/M01_ARESETN (associated clock /processing_system7_0_axi_periph/M01_ACLK) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET1_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /processing_system7_0/FCLK_CLK0.
+CRITICAL WARNING: [BD 41-1348] Reset pin /processing_system7_0_axi_periph/M02_ARESETN (associated clock /processing_system7_0_axi_periph/M02_ACLK) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET1_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /processing_system7_0/FCLK_CLK0.
+CRITICAL WARNING: [BD 41-1348] Reset pin /processing_system7_0_axi_periph/M03_ARESETN (associated clock /processing_system7_0_axi_periph/M03_ACLK) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET1_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /processing_system7_0/FCLK_CLK0.
+CRITICAL WARNING: [BD 41-1348] Reset pin /processing_system7_0_axi_periph/M04_ARESETN (associated clock /processing_system7_0_axi_periph/M04_ACLK) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET1_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /processing_system7_0/FCLK_CLK0.
+CRITICAL WARNING: [BD 41-1348] Reset pin /processing_system7_0_axi_periph/M05_ARESETN (associated clock /processing_system7_0_axi_periph/M05_ACLK) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET1_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /processing_system7_0/FCLK_CLK0.
+CRITICAL WARNING: [BD 41-1348] Reset pin /processing_system7_0_axi_periph/M06_ARESETN (associated clock /processing_system7_0_axi_periph/M06_ACLK) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET1_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /processing_system7_0/FCLK_CLK0.
+CRITICAL WARNING: [BD 41-1348] Reset pin /processing_system7_0_axi_periph/M07_ARESETN (associated clock /processing_system7_0_axi_periph/M07_ACLK) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET1_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /processing_system7_0/FCLK_CLK0.
+CRITICAL WARNING: [BD 41-1356] Address block </myLED_0/S_AXI/S_AXI_reg> is not mapped into </processing_system7_0/Data>. Please use Address Editor to either map or exclude it.
+INFO: [xilinx.com:ip:axi_vdma:6.2-16] /axi_vdma_1 
+                    All clocks connected to AXI VDMA are not identical, therefore configuring AXI-VDMA in ASYNC mode.
+INFO: [xilinx.com:ip:axi_vdma:6.2-16] /axi_vdma_0 
+                    All clocks connected to AXI VDMA are not identical, therefore configuring AXI-VDMA in ASYNC mode.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_mem_intercon/m00_couplers/auto_pc/m_axi_bid'(1) to net 'auto_pc_to_m00_couplers_BID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_mem_intercon/m00_couplers/auto_pc/m_axi_rid'(1) to net 'auto_pc_to_m00_couplers_RID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_AWID'(6) to net 'axi_mem_intercon_M00_AXI_AWID'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_WID'(6) to net 'axi_mem_intercon_M00_AXI_WID'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_ARID'(6) to net 'axi_mem_intercon_M00_AXI_ARID'(1) - Only lower order bits will be connected.
+Verilog Output written to : C:/Users/lauro/OneDrive/Desktop/zybo-zynq/workspace/zybo_base_system/source/vivado/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/hdl/system.v
+Verilog Output written to : C:/Users/lauro/OneDrive/Desktop/zybo-zynq/workspace/zybo_base_system/source/vivado/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/hdl/system_wrapper.v
+Wrote  : <C:/Users/lauro/OneDrive/Desktop/zybo-zynq/workspace/zybo_base_system/source/vivado/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/system.bd> 
+INFO: [BD 41-1029] Generation completed for the IP Integrator block BTNs_4Bits .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block SWs_4Bits .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_dispctrl_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_dispctrl_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_i2s_adi_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_protocol_converter_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_vdma_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_vdma_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ground .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block hdmi_tx_0 .
+WARNING: [xilinx.com:ip:processing_system7:5.5-1] system_processing_system7_0_0: The Zynq BFM requires an AXI BFM license to run. Please ensure that you have purchased and setup the AXI BFM license prior to running simulation with this block. Please contact your Xilinx sales office for more information on purchasing this license
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block vdd .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block myLED_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m00_couplers/m00_regslice .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m01_couplers/m01_regslice .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m02_couplers/m02_regslice .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m03_couplers/m03_regslice .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m04_couplers/m04_regslice .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m05_couplers/m05_regslice .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m06_couplers/m06_regslice .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m07_couplers/m07_regslice .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/m00_couplers/auto_pc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/s00_mmu .
+Exporting to file C:/Users/lauro/OneDrive/Desktop/zybo-zynq/workspace/zybo_base_system/source/vivado/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/hw_handoff/system.hwh
+Generated Block Design Tcl file C:/Users/lauro/OneDrive/Desktop/zybo-zynq/workspace/zybo_base_system/source/vivado/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/hw_handoff/system_bd.tcl
+Generated Hardware Definition File C:/Users/lauro/OneDrive/Desktop/zybo-zynq/workspace/zybo_base_system/source/vivado/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/hdl/system.hwdef
+generate_target: Time (s): cpu = 00:00:34 ; elapsed = 00:00:42 . Memory (MB): peak = 1203.934 ; gain = 110.074
+export_ip_user_files -of_objects [get_files C:/Users/lauro/OneDrive/Desktop/zybo-zynq/workspace/zybo_base_system/source/vivado/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/system.bd] -no_script -force -quiet
+export_simulation -of_objects [get_files C:/Users/lauro/OneDrive/Desktop/zybo-zynq/workspace/zybo_base_system/source/vivado/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/system.bd] -directory C:/Users/lauro/OneDrive/Desktop/zybo-zynq/workspace/zybo_base_system/source/vivado/hw/zybo_bsd/zybo_bsd.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/lauro/OneDrive/Desktop/zybo-zynq/workspace/zybo_base_system/source/vivado/hw/zybo_bsd/zybo_bsd.ip_user_files -ipstatic_source_dir C:/Users/lauro/OneDrive/Desktop/zybo-zynq/workspace/zybo_base_system/source/vivado/hw/zybo_bsd/zybo_bsd.ip_user_files/ipstatic -force -quiet
+validate_bd_design -force
+CRITICAL WARNING: [BD 41-1348] Reset pin /axi_dispctrl_0/s_axi_aresetn (associated clock /axi_dispctrl_0/s_axi_aclk) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET1_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /processing_system7_0/FCLK_CLK0.
+CRITICAL WARNING: [BD 41-1348] Reset pin /axi_dispctrl_0/s_axis_mm2s_aresetn (associated clock /axi_dispctrl_0/s_axis_mm2s_aclk) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET1_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /axi_dispctrl_0/PXL_CLK_O.
+CRITICAL WARNING: [BD 41-1348] Reset pin /axi_dispctrl_1/s_axi_aresetn (associated clock /axi_dispctrl_1/s_axi_aclk) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET1_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /processing_system7_0/FCLK_CLK0.
+CRITICAL WARNING: [BD 41-1348] Reset pin /axi_dispctrl_1/s_axis_mm2s_aresetn (associated clock /axi_dispctrl_1/s_axis_mm2s_aclk) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET1_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /axi_dispctrl_1/PXL_CLK_O.
+CRITICAL WARNING: [BD 41-1348] Reset pin /axi_i2s_adi_1/S_AXI_ARESETN (associated clock /axi_i2s_adi_1/S_AXI_ACLK) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET1_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /processing_system7_0/FCLK_CLK0.
+CRITICAL WARNING: [BD 41-1348] Reset pin /myLED_0/s_axi_aresetn (associated clock /myLED_0/s_axi_aclk) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET1_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /processing_system7_0/FCLK_CLK0.
+CRITICAL WARNING: [BD 41-1348] Reset pin /BTNs_4Bits/s_axi_aresetn (associated clock /BTNs_4Bits/s_axi_aclk) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET1_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /processing_system7_0/FCLK_CLK0.
+CRITICAL WARNING: [BD 41-1348] Reset pin /SWs_4Bits/s_axi_aresetn (associated clock /SWs_4Bits/s_axi_aclk) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET1_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /processing_system7_0/FCLK_CLK0.
+CRITICAL WARNING: [BD 41-1348] Reset pin /axi_mem_intercon/S00_ARESETN (associated clock /axi_mem_intercon/S00_ACLK) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET1_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /processing_system7_0/FCLK_CLK1.
+CRITICAL WARNING: [BD 41-1348] Reset pin /axi_mem_intercon/S01_ARESETN (associated clock /axi_mem_intercon/S01_ACLK) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET1_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /processing_system7_0/FCLK_CLK1.
+CRITICAL WARNING: [BD 41-1348] Reset pin /axi_mem_intercon/M00_ARESETN (associated clock /axi_mem_intercon/M00_ACLK) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET1_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /processing_system7_0/FCLK_CLK1.
+CRITICAL WARNING: [BD 41-1348] Reset pin /axi_protocol_converter_0/aresetn (associated clock /axi_protocol_converter_0/aclk) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET0_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /processing_system7_0/FCLK_CLK0.
+CRITICAL WARNING: [BD 41-1348] Reset pin /axi_vdma_0/axi_resetn (associated clock /axi_vdma_0/s_axi_lite_aclk) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET1_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /processing_system7_0/FCLK_CLK0.
+CRITICAL WARNING: [BD 41-1348] Reset pin /axi_vdma_1/axi_resetn (associated clock /axi_vdma_1/s_axi_lite_aclk) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET1_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /processing_system7_0/FCLK_CLK0.
+CRITICAL WARNING: [BD 41-1348] Reset pin /processing_system7_0_axi_periph/S00_ARESETN (associated clock /processing_system7_0_axi_periph/S00_ACLK) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET1_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /processing_system7_0/FCLK_CLK0.
+CRITICAL WARNING: [BD 41-1348] Reset pin /processing_system7_0_axi_periph/M00_ARESETN (associated clock /processing_system7_0_axi_periph/M00_ACLK) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET1_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /processing_system7_0/FCLK_CLK0.
+CRITICAL WARNING: [BD 41-1348] Reset pin /processing_system7_0_axi_periph/M01_ARESETN (associated clock /processing_system7_0_axi_periph/M01_ACLK) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET1_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /processing_system7_0/FCLK_CLK0.
+CRITICAL WARNING: [BD 41-1348] Reset pin /processing_system7_0_axi_periph/M02_ARESETN (associated clock /processing_system7_0_axi_periph/M02_ACLK) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET1_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /processing_system7_0/FCLK_CLK0.
+CRITICAL WARNING: [BD 41-1348] Reset pin /processing_system7_0_axi_periph/M03_ARESETN (associated clock /processing_system7_0_axi_periph/M03_ACLK) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET1_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /processing_system7_0/FCLK_CLK0.
+CRITICAL WARNING: [BD 41-1348] Reset pin /processing_system7_0_axi_periph/M04_ARESETN (associated clock /processing_system7_0_axi_periph/M04_ACLK) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET1_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /processing_system7_0/FCLK_CLK0.
+CRITICAL WARNING: [BD 41-1348] Reset pin /processing_system7_0_axi_periph/M05_ARESETN (associated clock /processing_system7_0_axi_periph/M05_ACLK) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET1_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /processing_system7_0/FCLK_CLK0.
+CRITICAL WARNING: [BD 41-1348] Reset pin /processing_system7_0_axi_periph/M06_ARESETN (associated clock /processing_system7_0_axi_periph/M06_ACLK) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET1_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /processing_system7_0/FCLK_CLK0.
+CRITICAL WARNING: [BD 41-1348] Reset pin /processing_system7_0_axi_periph/M07_ARESETN (associated clock /processing_system7_0_axi_periph/M07_ACLK) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET1_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /processing_system7_0/FCLK_CLK0.
+CRITICAL WARNING: [BD 41-1356] Address block </myLED_0/S_AXI/S_AXI_reg> is not mapped into </processing_system7_0/Data>. Please use Address Editor to either map or exclude it.
+INFO: [xilinx.com:ip:axi_vdma:6.2-16] /axi_vdma_1 
+                    All clocks connected to AXI VDMA are not identical, therefore configuring AXI-VDMA in ASYNC mode.
+INFO: [xilinx.com:ip:axi_vdma:6.2-16] /axi_vdma_0 
+                    All clocks connected to AXI VDMA are not identical, therefore configuring AXI-VDMA in ASYNC mode.
+validate_bd_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1203.934 ; gain = 0.000
+validate_bd_design -force
+CRITICAL WARNING: [BD 41-1348] Reset pin /axi_dispctrl_0/s_axi_aresetn (associated clock /axi_dispctrl_0/s_axi_aclk) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET1_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /processing_system7_0/FCLK_CLK0.
+CRITICAL WARNING: [BD 41-1348] Reset pin /axi_dispctrl_0/s_axis_mm2s_aresetn (associated clock /axi_dispctrl_0/s_axis_mm2s_aclk) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET1_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /axi_dispctrl_0/PXL_CLK_O.
+CRITICAL WARNING: [BD 41-1348] Reset pin /axi_dispctrl_1/s_axi_aresetn (associated clock /axi_dispctrl_1/s_axi_aclk) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET1_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /processing_system7_0/FCLK_CLK0.
+CRITICAL WARNING: [BD 41-1348] Reset pin /axi_dispctrl_1/s_axis_mm2s_aresetn (associated clock /axi_dispctrl_1/s_axis_mm2s_aclk) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET1_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /axi_dispctrl_1/PXL_CLK_O.
+CRITICAL WARNING: [BD 41-1348] Reset pin /axi_i2s_adi_1/S_AXI_ARESETN (associated clock /axi_i2s_adi_1/S_AXI_ACLK) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET1_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /processing_system7_0/FCLK_CLK0.
+CRITICAL WARNING: [BD 41-1348] Reset pin /myLED_0/s_axi_aresetn (associated clock /myLED_0/s_axi_aclk) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET1_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /processing_system7_0/FCLK_CLK0.
+CRITICAL WARNING: [BD 41-1348] Reset pin /BTNs_4Bits/s_axi_aresetn (associated clock /BTNs_4Bits/s_axi_aclk) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET1_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /processing_system7_0/FCLK_CLK0.
+CRITICAL WARNING: [BD 41-1348] Reset pin /SWs_4Bits/s_axi_aresetn (associated clock /SWs_4Bits/s_axi_aclk) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET1_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /processing_system7_0/FCLK_CLK0.
+CRITICAL WARNING: [BD 41-1348] Reset pin /axi_mem_intercon/S00_ARESETN (associated clock /axi_mem_intercon/S00_ACLK) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET1_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /processing_system7_0/FCLK_CLK1.
+CRITICAL WARNING: [BD 41-1348] Reset pin /axi_mem_intercon/S01_ARESETN (associated clock /axi_mem_intercon/S01_ACLK) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET1_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /processing_system7_0/FCLK_CLK1.
+CRITICAL WARNING: [BD 41-1348] Reset pin /axi_mem_intercon/M00_ARESETN (associated clock /axi_mem_intercon/M00_ACLK) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET1_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /processing_system7_0/FCLK_CLK1.
+CRITICAL WARNING: [BD 41-1348] Reset pin /axi_protocol_converter_0/aresetn (associated clock /axi_protocol_converter_0/aclk) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET0_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /processing_system7_0/FCLK_CLK0.
+CRITICAL WARNING: [BD 41-1348] Reset pin /axi_vdma_0/axi_resetn (associated clock /axi_vdma_0/s_axi_lite_aclk) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET1_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /processing_system7_0/FCLK_CLK0.
+CRITICAL WARNING: [BD 41-1348] Reset pin /axi_vdma_1/axi_resetn (associated clock /axi_vdma_1/s_axi_lite_aclk) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET1_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /processing_system7_0/FCLK_CLK0.
+CRITICAL WARNING: [BD 41-1348] Reset pin /processing_system7_0_axi_periph/S00_ARESETN (associated clock /processing_system7_0_axi_periph/S00_ACLK) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET1_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /processing_system7_0/FCLK_CLK0.
+CRITICAL WARNING: [BD 41-1348] Reset pin /processing_system7_0_axi_periph/M00_ARESETN (associated clock /processing_system7_0_axi_periph/M00_ACLK) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET1_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /processing_system7_0/FCLK_CLK0.
+CRITICAL WARNING: [BD 41-1348] Reset pin /processing_system7_0_axi_periph/M01_ARESETN (associated clock /processing_system7_0_axi_periph/M01_ACLK) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET1_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /processing_system7_0/FCLK_CLK0.
+CRITICAL WARNING: [BD 41-1348] Reset pin /processing_system7_0_axi_periph/M02_ARESETN (associated clock /processing_system7_0_axi_periph/M02_ACLK) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET1_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /processing_system7_0/FCLK_CLK0.
+CRITICAL WARNING: [BD 41-1348] Reset pin /processing_system7_0_axi_periph/M03_ARESETN (associated clock /processing_system7_0_axi_periph/M03_ACLK) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET1_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /processing_system7_0/FCLK_CLK0.
+CRITICAL WARNING: [BD 41-1348] Reset pin /processing_system7_0_axi_periph/M04_ARESETN (associated clock /processing_system7_0_axi_periph/M04_ACLK) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET1_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /processing_system7_0/FCLK_CLK0.
+CRITICAL WARNING: [BD 41-1348] Reset pin /processing_system7_0_axi_periph/M05_ARESETN (associated clock /processing_system7_0_axi_periph/M05_ACLK) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET1_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /processing_system7_0/FCLK_CLK0.
+CRITICAL WARNING: [BD 41-1348] Reset pin /processing_system7_0_axi_periph/M06_ARESETN (associated clock /processing_system7_0_axi_periph/M06_ACLK) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET1_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /processing_system7_0/FCLK_CLK0.
+CRITICAL WARNING: [BD 41-1348] Reset pin /processing_system7_0_axi_periph/M07_ARESETN (associated clock /processing_system7_0_axi_periph/M07_ACLK) is connected to asynchronous reset source /processing_system7_0/FCLK_RESET1_N.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /processing_system7_0/FCLK_CLK0.
+CRITICAL WARNING: [BD 41-1356] Address block </myLED_0/S_AXI/S_AXI_reg> is not mapped into </processing_system7_0/Data>. Please use Address Editor to either map or exclude it.
+INFO: [xilinx.com:ip:axi_vdma:6.2-16] /axi_vdma_1 
+                    All clocks connected to AXI VDMA are not identical, therefore configuring AXI-VDMA in ASYNC mode.
+INFO: [xilinx.com:ip:axi_vdma:6.2-16] /axi_vdma_0 
+                    All clocks connected to AXI VDMA are not identical, therefore configuring AXI-VDMA in ASYNC mode.
+validate_bd_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 1203.934 ; gain = 0.000
+report_ip_status -name ip_status 
+save_bd_design
+Wrote  : <C:/Users/lauro/OneDrive/Desktop/zybo-zynq/workspace/zybo_base_system/source/vivado/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/system.bd> 
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+INFO: [BD 41-1662] The design 'system.bd' is already validated. Therefore parameter propagation will not be re-run.
+CRITICAL WARNING: [BD 41-1356] Address block </myLED_0/S_AXI/S_AXI_reg> is not mapped into </processing_system7_0/Data>. Please use Address Editor to either map or exclude it.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_mem_intercon/m00_couplers/auto_pc/m_axi_bid'(1) to net 'auto_pc_to_m00_couplers_BID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_mem_intercon/m00_couplers/auto_pc/m_axi_rid'(1) to net 'auto_pc_to_m00_couplers_RID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_AWID'(6) to net 'axi_mem_intercon_M00_AXI_AWID'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_WID'(6) to net 'axi_mem_intercon_M00_AXI_WID'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_ARID'(6) to net 'axi_mem_intercon_M00_AXI_ARID'(1) - Only lower order bits will be connected.
+Verilog Output written to : C:/Users/lauro/OneDrive/Desktop/zybo-zynq/workspace/zybo_base_system/source/vivado/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/hdl/system.v
+Verilog Output written to : C:/Users/lauro/OneDrive/Desktop/zybo-zynq/workspace/zybo_base_system/source/vivado/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/hdl/system_wrapper.v
+Wrote  : <C:/Users/lauro/OneDrive/Desktop/zybo-zynq/workspace/zybo_base_system/source/vivado/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/system.bd> 
+INFO: [BD 41-1029] Generation completed for the IP Integrator block BTNs_4Bits .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block SWs_4Bits .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_dispctrl_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_dispctrl_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_i2s_adi_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_protocol_converter_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_vdma_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_vdma_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ground .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block hdmi_tx_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block vdd .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block myLED_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m00_couplers/m00_regslice .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m01_couplers/m01_regslice .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m02_couplers/m02_regslice .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m03_couplers/m03_regslice .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m04_couplers/m04_regslice .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m05_couplers/m05_regslice .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m06_couplers/m06_regslice .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m07_couplers/m07_regslice .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/m00_couplers/auto_pc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/s00_mmu .
+Exporting to file C:/Users/lauro/OneDrive/Desktop/zybo-zynq/workspace/zybo_base_system/source/vivado/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/hw_handoff/system.hwh
+Generated Block Design Tcl file C:/Users/lauro/OneDrive/Desktop/zybo-zynq/workspace/zybo_base_system/source/vivado/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/hw_handoff/system_bd.tcl
+Generated Hardware Definition File C:/Users/lauro/OneDrive/Desktop/zybo-zynq/workspace/zybo_base_system/source/vivado/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/hdl/system.hwdef
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/lauro/OneDrive/Desktop/zybo-zynq/workspace/zybo_base_system/source/vivado/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/hdl/system_wrapper.v" into library work [C:/Users/lauro/OneDrive/Desktop/zybo-zynq/workspace/zybo_base_system/source/vivado/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/hdl/system_wrapper.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/lauro/OneDrive/Desktop/zybo-zynq/workspace/zybo_base_system/source/vivado/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/hdl/system.v" into library work [C:/Users/lauro/OneDrive/Desktop/zybo-zynq/workspace/zybo_base_system/source/vivado/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/hdl/system.v:1]
+[Mon Mar 11 19:41:34 2019] Launched synth_1...
+Run output will be captured here: C:/Users/lauro/OneDrive/Desktop/zybo-zynq/workspace/zybo_base_system/source/vivado/hw/zybo_bsd/zybo_bsd.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1257.945 ; gain = 15.969
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Mon Mar 11 19:50:47 2019] Launched impl_1...
+Run output will be captured here: C:/Users/lauro/OneDrive/Desktop/zybo-zynq/workspace/zybo_base_system/source/vivado/hw/zybo_bsd/zybo_bsd.runs/impl_1/runme.log
+file copy -force C:/Users/lauro/OneDrive/Desktop/zybo-zynq/workspace/zybo_base_system/source/vivado/hw/zybo_bsd/zybo_bsd.runs/impl_1/system_wrapper.sysdef C:/Users/lauro/OneDrive/Desktop/zybo-zynq/workspace/zybo_base_system/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper.hdf
+
+launch_sdk -workspace C:/Users/lauro/OneDrive/Desktop/zybo-zynq/workspace/zybo_base_system/source/vivado/hw/zybo_bsd/zybo_bsd.sdk -hwspec C:/Users/lauro/OneDrive/Desktop/zybo-zynq/workspace/zybo_base_system/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/lauro/OneDrive/Desktop/zybo-zynq/workspace/zybo_base_system/source/vivado/hw/zybo_bsd/zybo_bsd.sdk -hwspec C:/Users/lauro/OneDrive/Desktop/zybo-zynq/workspace/zybo_base_system/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.

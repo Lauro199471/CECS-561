@@ -1,0 +1,138 @@
+=============================
+|  ZYBO Base System Design  |
+=============================
+Copyright 2014, Digilent Inc.
+
+
+
+********************************************************************************
+*  *NOTICE*                  ***EARLY-RELEASE PROJECT***             *NOTICE*  *
+********************************************************************************
+* This project is an early release edition, and contains limited documentation.*
+* All sources have been fully tested and are confirmed working, however,       *
+* tutorials for building them are not yet included. You may need experience    *
+* with Vivado IP Integrator (or Xilinx Platform Studio) and Xilinx SDK to      *
+* build the sources.                                                           *
+*                                                                              *
+* To learn how to use the custom Video and audio IP cores, refer to the        *
+* included SDK software for the time being. The Video and audio IP cores will  *
+* be documented in the next release.                                           *
+*                                                                              *
+* If you are new to the Vivado toolset and would like to learn how to use it   *
+* to build projects for the ZYBO, please follow the free workshop materials    *
+* available from Xilinx here:                                                  *
+*                                                                              *
+* http://www.xilinx.com/support/university/workshops.html                      *
+*                                                                              *
+* The workshop titled "Embedded System Design Flow on Zynq using Vivado" will  *
+* teach you about the IP Integrator tool used to build this project.           *
+*                                                                              *
+********************************************************************************
+
+
+
+Overview
+---------
+This demonstration project configures the ZYBO so that the ARM processor can 
+communicate with the onboard devices, including:
+
+-Ethernet
+-microSD
+-Push buttons
+-Slide switches
+-LEDs
+-USB-OTG
+-UART
+-QSPI Flash
+-512MB DDR3
+-HDMI (custom core, output only)
+-VGA (custom core)
+-Audio Codec (custom core)
+
+A software application for the ARM processor is also included that demonstrates
+how to use the custom cores driving the VGA output, HDMI output, and Audio codec.
+
+The purpose of this project is to be used as a starting point for custom designs.
+
+
+
+Running the Demo on hardware
+-----------------------------
+***WARNING*** This demo draws more power than can be supplied by a typical USB port.
+              You must power the ZYBO from an external power supply to ensure that it
+              runs properly. Attempting to power the ZYBO from a computer while running
+              this demo may cause the computer to crash
+
+1) Copy the prebuilt binary in the sd_image folder to a FAT32 formatted microSD card.
+
+2) Insert the card into the ZYBO and set JP5 to "SD". 
+
+3) Attach J11 (PROG/UART) to your computer.
+
+4) Attach a 5V Power supply to J15, and set JP7 to Wall.
+
+5) Power on the ZYBO
+
+6) Connect to the ZYBO in a terminal program with 115200 baud, 8 databits, 1 stop bit and no parity.
+
+7) Press PS-SRST on the ZYBO, and you will be presented with a menu that allows you to run the 
+   different demos.
+
+
+
+Project Contents
+-----------------
+
+ * ./sd_image/
+   Pre-built binary that runs the demo application.
+
+ * ./source/ise/hw/
+   XPS project for building the design in ISE 14.7.
+
+ * ./source/ise/SDK/
+   Prebuilt SDK hardware platform, the demo application source, and fsbl source. See 
+   ./source/ise/SDK/README.txt for instructions on building the sources.
+
+ * ./source/vivado/hw/zybo_bsd/
+   Vivado project for building the design in Vivado 2013.4. Note that critical warning in the synthesis stage
+   regarding "set property" constraints can be ignored.
+
+ * ./source/vivado/SDK/
+   Prebuilt SDK hardware platform, the demo application source, and fsbl source. See 
+   ./source/vivado/SDK/README.txt for instructions on building the sources.
+
+
+
+Building the Vivado Project
+------------------------------
+To build the Vivado project from the source, do the following:
+
+1) If using a Windows OS, make sure that the zybo_base_design folder is extracted somewhere with no
+   more than 30 characters in the file path (not including the zybo_base_design folder). This is because 
+   the Vivado toolset creates a lot of nested folders during the build process, and it will violate the 260 
+   character filepath limit built into Windows. If this is not possible then copy the contents of 
+   ./source/vivado/hw/ to a location with no more than 65 characters in the file path.
+
+2) Open ./source/vivado/hw/zybo_bsd/zybo_bsd.xpr in Vivado 2013.4.
+
+3) In the Sources tab, expand "system_wrapper" and double click system.bd to open the block 
+   diagram in IP Integrator
+
+4) In the flow navigator pane, click "Generate Block Design" to generate the output products
+   of the block diagram. Hit OK in the dialog that opens.
+
+5) After the Block Diagram is generated, click Generate Bitstream in the Flow Navigator Pane.
+   When asked to run Synthesis and Implementation first, click yes.
+
+6) After the project is done building (this can take ~30 minutes depending on your PC hardware),
+   open the implemented design. Note that any critical warnings regarding a "set property"
+   constraint can be ignored.
+
+7) Click File->Export->Export Hardware for SDK.... In the dialog that opens, ensure that 
+   include bitstream, export hardware, and Launch SDK are checked. Click Export. SDK will 
+   open with the built hardware profile automatically imported into the current workspace.
+
+8) See ./source/vivado/SDK/README.txt for instructions on building the Demo source inside SDK. Start
+   from Step 3 in this document.
+   
+

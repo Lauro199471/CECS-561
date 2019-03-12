@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# Vivado v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Tue Mar 12 09:38:17 2019
+# Process ID: 9340
+# Current directory: C:/Users/lauro/zybo_base_system/source/vivado/hw/zybo_bsd
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6068 C:\Users\lauro\zybo_base_system\source\vivado\hw\zybo_bsd\zybo_bsd.xpr
+# Log file: C:/Users/lauro/zybo_base_system/source/vivado/hw/zybo_bsd/vivado.log
+# Journal file: C:/Users/lauro/zybo_base_system/source/vivado/hw/zybo_bsd\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/lauro/zybo_base_system/source/vivado/hw/zybo_bsd/zybo_bsd.xpr
+update_compile_order -fileset sources_1
+open_bd_design {C:/Users/lauro/zybo_base_system/source/vivado/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/system.bd}
+validate_bd_design -force
+regenerate_bd_layout
+save_bd_design
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+file copy -force C:/Users/lauro/zybo_base_system/source/vivado/hw/zybo_bsd/zybo_bsd.runs/impl_1/system_wrapper.sysdef C:/Users/lauro/zybo_base_system/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper.hdf
+
+launch_sdk -workspace C:/Users/lauro/zybo_base_system/source/vivado/hw/zybo_bsd/zybo_bsd.sdk -hwspec C:/Users/lauro/zybo_base_system/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper.hdf
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+file copy -force C:/Users/lauro/zybo_base_system/source/vivado/hw/zybo_bsd/zybo_bsd.runs/impl_1/system_wrapper.sysdef C:/Users/lauro/zybo_base_system/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper.hdf
+
+launch_sdk -workspace C:/Users/lauro/zybo_base_system/source/vivado/hw/zybo_bsd/zybo_bsd.sdk -hwspec C:/Users/lauro/zybo_base_system/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper.hdf

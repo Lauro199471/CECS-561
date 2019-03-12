@@ -1,0 +1,26 @@
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.4 (lin64) Build 1071353 Tue Nov 18 16:47:07 MST 2014
+| Date         : Thu Feb  5 17:36:46 2015
+| Host         : jlgutierrez-Ubuntu running 64-bit Ubuntu 14.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_axi_vdma_1_1'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of system_axi_vdma_1_1 from xilinx.com:ip:axi_vdma:6.1 (Rev. 1) to xilinx.com:ip:axi_vdma:6.2 (Rev. 2)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading IP 'system_axi_vdma_1_1'. These changes may impact your design.
+
+
+-upgraded port order differs after port 'm_axis_mm2s_tkeep'
+

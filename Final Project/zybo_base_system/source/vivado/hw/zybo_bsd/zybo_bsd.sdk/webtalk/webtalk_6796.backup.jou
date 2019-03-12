@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+# 
+# Start of session at: Mon Mar 11 19:58:45 2019
+# Process ID: 6796
+# Current directory: C:/Users/lauro/OneDrive/Desktop/zybo-zynq/workspace/zybo_base_system/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: C:/Users/lauro/OneDrive/Desktop/zybo-zynq/workspace/zybo_base_system/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/webtalk/webtalk.log
+# Journal file: C:/Users/lauro/OneDrive/Desktop/zybo-zynq/workspace/zybo_base_system/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

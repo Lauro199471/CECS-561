@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 16:47:07 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Mon Mar  2 21:14:33 2015
+# Process ID: 2214
+# Log file: /home/jlgutierrez/Development/zybo-zynq/workspace/zybo_base_system/source/vivado/hw/zybo_bsd/vivado.log
+# Journal file: /home/jlgutierrez/Development/zybo-zynq/workspace/zybo_base_system/source/vivado/hw/zybo_bsd/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project zybo_bsd.xpr
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_sdk -workspace /home/jlgutierrez/Development/zybo-zynq/workspace/zybo_base_system/source/vivado/hw/zybo_bsd/zybo_bsd.sdk -hwspec /home/jlgutierrez/Development/zybo-zynq/workspace/zybo_base_system/source/vivado/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper.hdf
