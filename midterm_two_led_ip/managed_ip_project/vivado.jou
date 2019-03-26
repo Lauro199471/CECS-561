@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Mon Mar 25 20:50:53 2019
+# Process ID: 5288
+# Current directory: C:/midterm_two_led_ip/managed_ip_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8876 C:\midterm_two_led_ip\managed_ip_project\managed_ip_project.xpr
+# Log file: C:/midterm_two_led_ip/managed_ip_project/vivado.log
+# Journal file: C:/midterm_two_led_ip/managed_ip_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
