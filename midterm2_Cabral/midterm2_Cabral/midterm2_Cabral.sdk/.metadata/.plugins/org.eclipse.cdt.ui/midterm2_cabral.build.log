@@ -1,0 +1,15 @@
+11:43:23 **** Auto Build of configuration Debug for project midterm2_cabral ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../midterm2_cabral_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:3:10: fatal error: user_gpio_ip.h: No such file or directory
+ #include "user_gpio_ip.h"
+          ^~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+
+11:43:24 Build Finished (took 542ms)
+

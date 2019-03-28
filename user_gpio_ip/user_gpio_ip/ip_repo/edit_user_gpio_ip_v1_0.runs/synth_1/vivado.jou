@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Mar 26 09:53:37 2019
+# Process ID: 10788
+# Current directory: c:/user_gpio_ip/ip_repo/edit_user_gpio_ip_v1_0.runs/synth_1
+# Command line: vivado.exe -log user_gpio_ip_v1_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source user_gpio_ip_v1_0.tcl
+# Log file: c:/user_gpio_ip/ip_repo/edit_user_gpio_ip_v1_0.runs/synth_1/user_gpio_ip_v1_0.vds
+# Journal file: c:/user_gpio_ip/ip_repo/edit_user_gpio_ip_v1_0.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source user_gpio_ip_v1_0.tcl -notrace

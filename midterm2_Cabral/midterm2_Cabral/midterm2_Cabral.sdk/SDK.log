@@ -1,0 +1,6 @@
+11:42:34 INFO  : Registering command handlers for SDK TCF services
+11:42:34 INFO  : Launching XSCT server: xsct.bat -interactive C:\midterm2_Cabral\midterm2_Cabral.sdk\temp_xsdb_launch_script.tcl
+11:42:36 INFO  : XSCT server has started successfully.
+11:42:37 INFO  : Processing command line option -hwspec C:/midterm2_Cabral/midterm2_Cabral.sdk/system_wrapper.hdf.
+11:42:37 INFO  : Successfully done setting XSCT server connection channel  
+11:42:37 INFO  : Successfully done setting SDK workspace  
