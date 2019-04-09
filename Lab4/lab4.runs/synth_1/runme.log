@@ -1,0 +1,30 @@
+
+*** Running vivado
+    with args -log system_wrapper.vds -m64 -mode batch -messageDb vivado.pb -notrace -source system_wrapper.tcl
+
+
+****** Vivado v2016.1 (64-bit)
+  **** SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+  **** IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source system_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/lauro/led_ip/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.1/data/ip'.
+WARNING: [IP_Flow 19-3664] IP 'system_led_ip_0_0' generated file not found 'c:/Users/lauro/lab4/lab4.srcs/sources_1/bd/system/OneDrive/Documents/lab3_user_logic.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'system_led_ip_0_0' generated file not found 'c:/Users/lauro/lab4/lab4.srcs/sources_1/bd/system/OneDrive/Documents/lab3_user_logic.v'. Please regenerate to continue.
+Command: synth_design -top system_wrapper -part xc7z010clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+ERROR: [Runs 36-287] File does not exist or is not accessible:'c:/Users/lauro/lab4/lab4.srcs/sources_1/bd/system/OneDrive/Documents/lab3_user_logic.v'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 3020 
+ERROR: [Synth 8-1769] cannot open verilog file c:/Users/lauro/lab4/lab4.srcs/sources_1/bd/system/OneDrive/Documents/lab3_user_logic.v
+Failed to read verilog 'c:/Users/lauro/lab4/lab4.srcs/sources_1/bd/system/OneDrive/Documents/lab3_user_logic.v'
+INFO: [Common 17-83] Releasing license: Synthesis
+5 Infos, 2 Warnings, 0 Critical Warnings and 3 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details
+INFO: [Common 17-206] Exiting Vivado at Thu Mar 14 21:01:58 2019...

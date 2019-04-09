@@ -1,0 +1,97 @@
+00:02:14 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Users\lauro\lab1_16\lab1_16.sdk\temp_xsdb_launch_script.tcl
+00:02:15 INFO  : XSDB server has started successfully.
+00:02:15 INFO  : Processing command line option -hwspec C:/Users/lauro/lab1_16/lab1_16.sdk/system_wrapper.hdf.
+00:04:10 INFO  : ps7_init is completed.
+00:04:10 INFO  : Processor reset is completed for ps7_cortexa9_0
+00:04:30 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+19:06:02 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Users\lauro\lab3\lab3.sdk\temp_xsdb_launch_script.tcl
+19:06:05 INFO  : XSDB server has started successfully.
+19:06:07 INFO  : Processing command line option -hwspec C:/Users/lauro/lab3/lab3.sdk/system_wrapper.hdf.
+19:13:00 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Users\lauro\lab3\lab3.sdk\temp_xsdb_launch_script.tcl
+19:13:02 INFO  : XSDB server has started successfully.
+19:13:02 INFO  : Processing command line option -hwspec C:/Users/lauro/lab3/lab3.sdk/system_wrapper.hdf.
+21:04:26 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Users\lauro\lab3\lab3.sdk\temp_xsdb_launch_script.tcl
+21:04:28 INFO  : XSDB server has started successfully.
+21:04:35 INFO  : Processing command line option -hwspec C:/Users/lauro/lab3/lab3.sdk/system_wrapper.hdf.
+21:04:36 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_2.
+21:05:12 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Users\lauro\lab3\lab3.sdk\temp_xsdb_launch_script.tcl
+21:05:13 INFO  : XSDB server has started successfully.
+21:05:13 INFO  : Processing command line option -hwspec C:/Users/lauro/lab3/lab3.sdk/system_wrapper.hdf.
+21:14:25 INFO  : No changes in MSS file content so not generating sources.
+21:18:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:18:46 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279772455A" && level==0} -index 1' command is executed.
+21:18:47 INFO  : FPGA configured successfully with bitstream "C:/Users/lauro/lab3/lab3.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+21:19:13 INFO  : ps7_init is completed.
+21:19:13 INFO  : ps7_post_config is completed.
+21:19:14 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:20:17 INFO  : Inferring section assignments and sizes from elf file: C:\Users\lauro\lab3\lab3.sdk\lab4\Debug\lab4.elf
+21:20:57 INFO  : Successfully generated C:\Users\lauro\lab3\lab3.sdk\lab4\src\lscript.ld.
+21:20:57 INFO  : Applying linker script to all configurations of project lab4.
+21:20:57 INFO  : Setting rebuild state to true for all configurations of project lab4.
+21:21:19 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:21:19 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279772455A" && level==0} -index 1' command is executed.
+21:21:21 INFO  : FPGA configured successfully with bitstream "C:/Users/lauro/lab3/lab3.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+21:21:33 INFO  : ps7_init is completed.
+21:21:33 INFO  : ps7_post_config is completed.
+21:21:33 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:22:02 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+21:25:20 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Users\lauro\lab3\lab3.sdk\temp_xsdb_launch_script.tcl
+21:25:23 INFO  : XSDB server has started successfully.
+21:25:26 INFO  : Processing command line option -hwspec C:/Users/lauro/lab3/lab3.sdk/system_wrapper.hdf.
+21:25:30 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+21:25:34 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:25:35 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279772455A" && level==0} -index 1' command is executed.
+21:25:36 INFO  : FPGA configured successfully with bitstream "C:/Users/lauro/lab3/lab3.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+21:26:07 INFO  : ps7_init is completed.
+21:26:07 INFO  : ps7_post_config is completed.
+21:26:07 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:26:45 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+08:59:36 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Users\lauro\lab3\lab3.sdk\temp_xsdb_launch_script.tcl
+08:59:38 INFO  : XSDB server has started successfully.
+08:59:38 INFO  : Processing command line option -hwspec C:/Users/lauro/lab3/lab3.sdk/system_wrapper.hdf.
+08:59:38 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+09:23:42 INFO  : Inferring section assignments and sizes from elf file: C:\Users\lauro\lab3\lab3.sdk\lab4\Debug\lab4.elf
+09:24:58 INFO  : Successfully generated C:\Users\lauro\lab3\lab3.sdk\lab4\src\lscript.ld.
+09:24:58 INFO  : Applying linker script to all configurations of project lab4.
+09:24:58 INFO  : Setting rebuild state to true for all configurations of project lab4.
+09:30:01 INFO  : Successfully generated C:\Users\lauro\lab3\lab3.sdk\lab4\src\lscript.ld.
+09:30:01 INFO  : Applying linker script to all configurations of project lab4.
+09:30:01 INFO  : Setting rebuild state to true for all configurations of project lab4.
+09:30:15 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:30:17 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279772455A" && level==0} -index 1' command is executed.
+09:30:18 INFO  : FPGA configured successfully with bitstream "C:/Users/lauro/lab3/lab3.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+09:30:57 INFO  : ps7_init is completed.
+09:30:57 INFO  : ps7_post_config is completed.
+09:30:57 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:31:52 INFO  : Inferring section assignments and sizes from elf file: C:\Users\lauro\lab3\lab3.sdk\lab4\Debug\lab4.elf
+09:32:02 INFO  : Successfully generated C:\Users\lauro\lab3\lab3.sdk\lab4\src\lscript.ld.
+09:32:02 INFO  : Applying linker script to all configurations of project lab4.
+09:32:02 INFO  : Setting rebuild state to true for all configurations of project lab4.
+09:32:14 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+09:32:17 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:34:00 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+10:12:52 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Users\lauro\lab3\lab3.sdk\temp_xsdb_launch_script.tcl
+10:12:54 INFO  : XSDB server has started successfully.
+10:12:56 INFO  : Processing command line option -hwspec C:/Users/lauro/lab3/lab3.sdk/system_wrapper.hdf.
+10:12:56 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+10:14:09 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:14:10 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279772455A" && level==0} -index 1' command is executed.
+10:14:11 INFO  : FPGA configured successfully with bitstream "C:/Users/lauro/lab3/lab3.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+10:14:40 INFO  : Inferring section assignments and sizes from elf file: C:\Users\lauro\lab3\lab3.sdk\lab4\Debug\lab4.elf
+10:14:49 INFO  : Successfully generated C:\Users\lauro\lab3\lab3.sdk\lab4\src\lscript.ld.
+10:14:49 INFO  : Applying linker script to all configurations of project lab4.
+10:14:49 INFO  : Setting rebuild state to true for all configurations of project lab4.
+10:15:01 INFO  : ps7_init is completed.
+10:15:01 INFO  : ps7_post_config is completed.
+10:15:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:30:11 INFO  : Inferring section assignments and sizes from elf file: C:\Users\lauro\lab3\lab3.sdk\lab4\Debug\lab4.elf
+10:30:20 INFO  : Successfully generated C:\Users\lauro\lab3\lab3.sdk\lab4\src\lscript.ld.
+10:30:20 INFO  : Applying linker script to all configurations of project lab4.
+10:30:20 INFO  : Setting rebuild state to true for all configurations of project lab4.
+10:30:27 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:30:29 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:31:54 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+10:36:43 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Users\lauro\lab3\lab3.sdk\temp_xsdb_launch_script.tcl
+10:36:45 INFO  : XSDB server has started successfully.
+10:36:45 INFO  : Processing command line option -hwspec C:/Users/lauro/lab3/lab3.sdk/system_wrapper.hdf.
+10:36:49 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
