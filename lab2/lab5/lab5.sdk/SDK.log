@@ -1,0 +1,70 @@
+20:45:29 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Lab2\project_2\project_2.sdk\temp_xsdb_launch_script.tcl
+20:45:31 INFO  : XSDB server has started successfully.
+20:45:32 INFO  : Processing command line option -hwspec C:/Lab2/project_2/project_2.sdk/design_1_wrapper.hdf.
+20:46:56 INFO  : ps7_init is completed.
+20:46:56 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:47:26 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:47:41 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+20:56:24 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Lab2\project_2\project_2.sdk\temp_xsdb_launch_script.tcl
+20:56:26 INFO  : XSDB server has started successfully.
+20:56:27 INFO  : Processing command line option -hwspec C:/Lab2/project_2/project_2.sdk/design_1_wrapper.hdf.
+20:56:27 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+20:56:29 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1556078137069,  Project:1556077475754
+20:56:29 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from C:/Lab2/project_2/project_2.sdk/design_1_wrapper.hdf.
+20:56:29 INFO  : Copied contents of C:/Lab2/project_2/project_2.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+20:56:33 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+20:56:37 INFO  : 
+20:56:38 INFO  : Updating hardware inferred compiler options for mem_test.
+20:56:38 INFO  : Clearing existing target manager status.
+20:58:37 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:58:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279772455A" && level==0} -index 1' command is executed.
+20:58:44 INFO  : FPGA configured successfully with bitstream "C:/Lab2/project_2/project_2.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+20:59:00 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:59:35 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:59:36 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279772455A" && level==0} -index 1' command is executed.
+20:59:37 INFO  : FPGA configured successfully with bitstream "C:/Lab2/project_2/project_2.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+20:59:52 INFO  : ps7_init is completed.
+20:59:52 INFO  : ps7_post_config is completed.
+20:59:52 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:00:31 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+21:37:28 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Lab2\project_4\project_4.sdk\temp_xsdb_launch_script.tcl
+21:37:30 INFO  : XSDB server has started successfully.
+21:37:36 INFO  : Processing command line option -hwspec C:/Lab2/project_4/project_4.sdk/design_1_wrapper.hdf.
+21:37:41 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1556080431522,  Project:1556078137069
+21:37:41 INFO  : Project design_1_wrapper_hw_platform_0's source hardware specification located at C:/Lab2/project_2/project_2.sdk/design_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+21:37:45 INFO  : Copied contents of C:/Lab2/project_2/project_2.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+21:37:49 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+21:37:49 INFO  : Clearing existing target manager status.
+21:37:51 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+21:37:51 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+21:38:39 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+21:38:55 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Lab2\project_4\project_4.sdk\temp_xsdb_launch_script.tcl
+21:38:56 INFO  : XSDB server has started successfully.
+21:38:57 INFO  : Processing command line option -hwspec C:/Lab2/project_4/project_4.sdk/design_1_wrapper.hdf.
+21:43:36 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:43:36 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279772455A" && level==0} -index 1' command is executed.
+21:43:38 INFO  : FPGA configured successfully with bitstream "C:/Lab2/project_4/project_4.sdk/design_1_wrapper_hw_platform_2/design_1_wrapper.bit"
+21:44:00 INFO  : ps7_init is completed.
+21:44:00 INFO  : ps7_post_config is completed.
+21:44:00 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:44:15 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:44:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:44:43 INFO  : FPGA Cable Disconnected. All active launches will be terminated.
+21:44:54 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+21:45:08 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Lab2\project_4\project_4.sdk\temp_xsdb_launch_script.tcl
+21:45:10 INFO  : XSDB server has started successfully.
+21:45:10 INFO  : Processing command line option -hwspec C:/Lab2/project_4/project_4.sdk/design_1_wrapper.hdf.
+21:45:10 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_2.
+21:56:07 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Lab2\lab5\lab5.sdk\temp_xsdb_launch_script.tcl
+21:56:09 INFO  : XSDB server has started successfully.
+21:56:09 INFO  : Processing command line option -hwspec C:/Lab2/lab5/lab5.sdk/design_1_wrapper.hdf.
+22:41:11 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:41:12 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279772455A" && level==0} -index 1' command is executed.
+22:41:13 INFO  : FPGA configured successfully with bitstream "C:/Lab2/lab5/lab5.sdk/design_1_wrapper_hw_platform_2/design_1_wrapper.bit"
+22:41:29 INFO  : ps7_init is completed.
+22:41:29 INFO  : ps7_post_config is completed.
+22:41:29 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:41:50 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+22:41:52 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:44:27 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 

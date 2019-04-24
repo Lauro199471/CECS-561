@@ -1,0 +1,1355 @@
+20:46:13 **** Build of project mem_test_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v5_4/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v5_4/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling xadcps"
+'Finished building libraries'
+20:46:27 **** Build of configuration Debug for project mem_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/memory_config_g.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/memory_config_g.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mem_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/memory_config_g.d" -MT"src/memory_config_g.o" -o "src/memory_config_g.o" "../src/memory_config_g.c"
+'Finished building: ../src/memory_config_g.c'
+' '
+'Building file: ../src/memorytest.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/memorytest.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mem_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/memorytest.d" -MT"src/memorytest.o" -o "src/memorytest.o" "../src/memorytest.c"
+'Finished building: ../src/memorytest.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mem_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: mem_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../mem_test_bsp/ps7_cortexa9_0/lib -o "mem_test.elf"  ./src/memory_config_g.o ./src/memorytest.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: mem_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size mem_test.elf  |tee "mem_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28500	   1192	  14388	  44080	   ac30	mem_test.elf
+'Finished building: mem_test.elf.size'
+' '
+20:46:48 **** Incremental Build of configuration Debug for project mem_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+20:47:20 **** Incremental Build of configuration Debug for project mem_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+20:57:14 **** Build of project standalone_bsp_0 ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_1/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v5_4/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_1/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling gpio"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v5_4/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling xadcps"
+'Finished building libraries'
+20:57:42 **** Build of project Testapp_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_1/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v5_4/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_1/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling gpio"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v5_4/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling xadcps"
+'Finished building libraries'
+
+**** Build of configuration Debug for project Testapp ****
+
+Nothing to build for project Testapp
+20:58:01 **** Auto Build of configuration Debug for project Testapp ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Testapp_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Testapp.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Testapp_bsp/ps7_cortexa9_0/lib -o "Testapp.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../Testapp_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
+xil-crt0.S:(.text+0x68): undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [Testapp.elf] Error 1
+20:58:12 **** Auto Build of configuration Debug for project Testapp ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Testapp_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:28:4: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+    sleep(1);
+    ^
+'Finished building: ../src/main.c'
+' '
+'Building target: Testapp.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Testapp_bsp/ps7_cortexa9_0/lib -o "Testapp.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Testapp.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Testapp.elf  |tee "Testapp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23988	   1184	  22580	  47752	   ba88	Testapp.elf
+'Finished building: Testapp.elf.size'
+' '
+20:58:57 **** Incremental Build of configuration Debug for project Testapp ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+20:59:51 **** Incremental Build of configuration Debug for project Testapp ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:40:01 **** Build of project lab4_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/bram_v4_1/src"
+make -C ps7_cortexa9_0/libsrc/bram_v4_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_1/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/led_ip_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/led_ip_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v5_4/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make libs in ps7_cortexa9_0/libsrc/bram_v4_1/src"
+make -C ps7_cortexa9_0/libsrc/bram_v4_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling bram"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_1/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling gpio"
+"Running Make libs in ps7_cortexa9_0/libsrc/led_ip_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/led_ip_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling led_ip..."
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v5_4/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling xadcps"
+'Finished building libraries'
+
+**** Build of configuration Debug for project lab4 ****
+
+Nothing to build for project lab4
+21:40:20 **** Auto Build of configuration Debug for project lab4 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/lab4.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab4.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab4_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab4.d" -MT"src/lab4.o" -o "src/lab4.o" "../src/lab4.c"
+'Finished building: ../src/lab4.c'
+' '
+'Building target: lab4.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../lab4_bsp/ps7_cortexa9_0/lib -o "lab4.elf"  ./src/lab4.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../lab4_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
+xil-crt0.S:(.text+0x68): undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [lab4.elf] Error 1
+21:40:35 **** Auto Build of configuration Debug for project lab4 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/lab4.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab4.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab4_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab4.d" -MT"src/lab4.o" -o "src/lab4.o" "../src/lab4.c"
+../src/lab4.c: In function 'main':
+../src/lab4.c:14:27: error: 'XPAR_DIP_DEVICE_ID' undeclared (first use in this function)
+    XGpio_Initialize(&dip, XPAR_DIP_DEVICE_ID); // Modify this
+                           ^
+../src/lab4.c:14:27: note: each undeclared identifier is reported only once for each function it appears in
+../src/lab4.c:17:28: error: 'XPAR_PUSH_DEVICE_ID' undeclared (first use in this function)
+    XGpio_Initialize(&push, XPAR_PUSH_DEVICE_ID); // Modify this
+                            ^
+make: *** [src/lab4.o] Error 1
+21:41:20 **** Auto Build of configuration Debug for project lab4 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/lab4.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab4.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab4_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab4.d" -MT"src/lab4.o" -o "src/lab4.o" "../src/lab4.c"
+In file included from ../../lab4_bsp/ps7_cortexa9_0/include/xil_printf.h:12:0,
+                 from ../../lab4_bsp/ps7_cortexa9_0/include/xil_io.h:65,
+                 from ../../lab4_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../lab4_bsp/ps7_cortexa9_0/include/xgpio.h:125,
+                 from ../src/lab4.c:2:
+../src/lab4.c: In function 'main':
+../../lab4_bsp/ps7_cortexa9_0/include/xparameters.h:215:31: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define XPAR_BUTTONS_BASEADDR 0x41210000
+                               ^
+../src/lab4.c:14:27: note: in expansion of macro 'XPAR_BUTTONS_BASEADDR'
+    XGpio_Initialize(&dip, XPAR_BUTTONS_BASEADDR); // Modify this
+                           ^
+../src/lab4.c:17:28: error: 'XPAR_PUSH_DEVICE_ID' undeclared (first use in this function)
+    XGpio_Initialize(&push, XPAR_PUSH_DEVICE_ID); // Modify this
+                            ^
+../src/lab4.c:17:28: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/lab4.o] Error 1
+21:41:24 **** Auto Build of configuration Debug for project lab4 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/lab4.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab4.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab4_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab4.d" -MT"src/lab4.o" -o "src/lab4.o" "../src/lab4.c"
+../src/lab4.c: In function 'main':
+../src/lab4.c:17:28: error: 'XPAR_PUSH_DEVICE_ID' undeclared (first use in this function)
+    XGpio_Initialize(&push, XPAR_PUSH_DEVICE_ID); // Modify this
+                            ^
+../src/lab4.c:17:28: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/lab4.o] Error 1
+21:41:33 **** Auto Build of configuration Debug for project lab4 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/lab4.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab4.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab4_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab4.d" -MT"src/lab4.o" -o "src/lab4.o" "../src/lab4.c"
+'Finished building: ../src/lab4.c'
+' '
+'Building target: lab4.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../lab4_bsp/ps7_cortexa9_0/lib -o "lab4.elf"  ./src/lab4.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab4.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size lab4.elf  |tee "lab4.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23924	   1184	  22580	  47688	   ba48	lab4.elf
+'Finished building: lab4.elf.size'
+' '
+21:42:08 **** Auto Build of configuration Debug for project lab4 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/lab4.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab4.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab4_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab4.d" -MT"src/lab4.o" -o "src/lab4.o" "../src/lab4.c"
+../src/lab4.c:3:2: error: invalid preprocessing directive #in
+ #in
+  ^
+make: *** [src/lab4.o] Error 1
+21:42:23 **** Auto Build of configuration Debug for project lab4 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/lab4.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab4.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab4_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab4.d" -MT"src/lab4.o" -o "src/lab4.o" "../src/lab4.c"
+'Finished building: ../src/lab4.c'
+' '
+'Building target: lab4.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../lab4_bsp/ps7_cortexa9_0/lib -o "lab4.elf"  ./src/lab4.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab4.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size lab4.elf  |tee "lab4.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23924	   1184	  22580	  47688	   ba48	lab4.elf
+'Finished building: lab4.elf.size'
+' '
+21:42:42 **** Auto Build of configuration Debug for project lab4 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/lab4.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab4.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab4_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab4.d" -MT"src/lab4.o" -o "src/lab4.o" "../src/lab4.c"
+../src/lab4.c: In function 'main':
+../src/lab4.c:30:21: error: macro "LED_IP_mWriteReg" requires 3 arguments, but only 1 given
+    LED_IP_mWriteReg()
+                     ^
+../src/lab4.c:30:4: error: 'LED_IP_mWriteReg' undeclared (first use in this function)
+    LED_IP_mWriteReg()
+    ^
+../src/lab4.c:30:4: note: each undeclared identifier is reported only once for each function it appears in
+../src/lab4.c:31:4: error: expected ';' before 'for'
+    for (i=0; i<9999999; i++);
+    ^
+../src/lab4.c:11:8: warning: unused variable 'i' [-Wunused-variable]
+    int i, psb_check, dip_check;
+        ^
+make: *** [src/lab4.o] Error 1
+21:42:57 **** Auto Build of configuration Debug for project lab4 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/lab4.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab4.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab4_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab4.d" -MT"src/lab4.o" -o "src/lab4.o" "../src/lab4.c"
+../src/lab4.c: In function 'main':
+../src/lab4.c:30:49: error: macro "LED_IP_mWriteReg" requires 3 arguments, but only 1 given
+    LED_IP_mWriteReg(XPAR_LED_IP_0_S_AXI_BASEADDR)
+                                                 ^
+../src/lab4.c:30:4: error: 'LED_IP_mWriteReg' undeclared (first use in this function)
+    LED_IP_mWriteReg(XPAR_LED_IP_0_S_AXI_BASEADDR)
+    ^
+../src/lab4.c:30:4: note: each undeclared identifier is reported only once for each function it appears in
+../src/lab4.c:31:4: error: expected ';' before 'for'
+    for (i=0; i<9999999; i++);
+    ^
+../src/lab4.c:11:8: warning: unused variable 'i' [-Wunused-variable]
+    int i, psb_check, dip_check;
+        ^
+make: *** [src/lab4.o] Error 1
+21:43:04 **** Auto Build of configuration Debug for project lab4 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/lab4.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab4.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab4_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab4.d" -MT"src/lab4.o" -o "src/lab4.o" "../src/lab4.c"
+'Finished building: ../src/lab4.c'
+' '
+'Building target: lab4.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../lab4_bsp/ps7_cortexa9_0/lib -o "lab4.elf"  ./src/lab4.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab4.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size lab4.elf  |tee "lab4.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23988	   1184	  22580	  47752	   ba88	lab4.elf
+'Finished building: lab4.elf.size'
+' '
+21:43:08 **** Auto Build of configuration Debug for project lab4 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/lab4.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab4.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab4_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab4.d" -MT"src/lab4.o" -o "src/lab4.o" "../src/lab4.c"
+'Finished building: ../src/lab4.c'
+' '
+'Building target: lab4.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../lab4_bsp/ps7_cortexa9_0/lib -o "lab4.elf"  ./src/lab4.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab4.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size lab4.elf  |tee "lab4.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23988	   1184	  22580	  47752	   ba88	lab4.elf
+'Finished building: lab4.elf.size'
+' '
+21:43:55 **** Incremental Build of configuration Debug for project lab4 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:44:15 **** Incremental Build of configuration Debug for project lab4 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:57:19 **** Build of project lab5_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/bram_v4_1/src"
+make -C ps7_cortexa9_0/libsrc/bram_v4_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_1/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/led_ip_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/led_ip_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v5_4/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make libs in ps7_cortexa9_0/libsrc/bram_v4_1/src"
+make -C ps7_cortexa9_0/libsrc/bram_v4_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling bram"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_1/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling gpio"
+"Running Make libs in ps7_cortexa9_0/libsrc/led_ip_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/led_ip_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling led_ip..."
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v5_4/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling xadcps"
+'Finished building libraries'
+21:57:33 **** Build of configuration Debug for project lab5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/lab5.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab5.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab5.d" -MT"src/lab5.o" -o "src/lab5.o" "../src/lab5.c"
+'Finished building: ../src/lab5.c'
+' '
+'Building target: lab5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../lab5_bsp/ps7_cortexa9_0/lib -o "lab5.elf"  ./src/lab5.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../lab5_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
+xil-crt0.S:(.text+0x68): undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [lab5.elf] Error 1
+21:57:45 **** Auto Build of configuration Debug for project lab5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/lab5.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab5.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab5.d" -MT"src/lab5.o" -o "src/lab5.o" "../src/lab5.c"
+../src/lab5.c:7:1: error: unknown type name 'XScuTimer'
+ XScuTimer Timer;  /* Cortex A9 SCU Private Timer Instance */
+ ^
+../src/lab5.c: In function 'main':
+../src/lab5.c:18:4: error: unknown type name 'XScuTimer_Config'
+    XScuTimer_Config *ConfigPtr;
+    ^
+../src/lab5.c:19:4: error: unknown type name 'XScuTimer'
+    XScuTimer *TimerInstancePtr = &Timer;
+    ^
+../src/lab5.c:48:5: warning: implicit declaration of function 'XScuTimer_Stop' [-Wimplicit-function-declaration]
+     XScuTimer_Stop(TimerInstancePtr);
+     ^
+../src/lab5.c:59:4: warning: implicit declaration of function 'XScuTimer_IsExpired' [-Wimplicit-function-declaration]
+    if(XScuTimer_IsExpired(TimerInstancePtr)) {
+    ^
+../src/lab5.c:18:22: warning: unused variable 'ConfigPtr' [-Wunused-variable]
+    XScuTimer_Config *ConfigPtr;
+                      ^
+../src/lab5.c:15:53: warning: unused variable 'Status' [-Wunused-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                                                     ^
+../src/lab5.c:15:46: warning: variable 'count' set but not used [-Wunused-but-set-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                                              ^
+make: *** [src/lab5.o] Error 1
+21:59:04 **** Auto Build of configuration Debug for project lab5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/lab5.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab5.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab5.d" -MT"src/lab5.o" -o "src/lab5.o" "../src/lab5.c"
+../src/lab5.c:7:1: error: unknown type name 'XScuTimer'
+ XScuTimer timer;
+ ^
+../src/lab5.c:8:1: error: unknown type name 'XScuTimer'
+ XScuTimer Timer;  /* Cortex A9 SCU Private Timer Instance */
+ ^
+../src/lab5.c: In function 'main':
+../src/lab5.c:19:4: error: unknown type name 'XScuTimer_Config'
+    XScuTimer_Config *ConfigPtr;
+    ^
+../src/lab5.c:20:4: error: unknown type name 'XScuTimer'
+    XScuTimer *TimerInstancePtr = &Timer;
+    ^
+../src/lab5.c:49:5: warning: implicit declaration of function 'XScuTimer_Stop' [-Wimplicit-function-declaration]
+     XScuTimer_Stop(TimerInstancePtr);
+     ^
+../src/lab5.c:60:4: warning: implicit declaration of function 'XScuTimer_IsExpired' [-Wimplicit-function-declaration]
+    if(XScuTimer_IsExpired(TimerInstancePtr)) {
+    ^
+../src/lab5.c:19:22: warning: unused variable 'ConfigPtr' [-Wunused-variable]
+    XScuTimer_Config *ConfigPtr;
+                      ^
+../src/lab5.c:16:53: warning: unused variable 'Status' [-Wunused-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                                                     ^
+../src/lab5.c:16:46: warning: variable 'count' set but not used [-Wunused-but-set-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                                              ^
+make: *** [src/lab5.o] Error 1
+21:59:09 **** Auto Build of configuration Debug for project lab5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/lab5.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab5.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab5.d" -MT"src/lab5.o" -o "src/lab5.o" "../src/lab5.c"
+../src/lab5.c:7:1: error: unknown type name 'XScuTimer'
+ XScuTimer Timer;  /* Cortex A9 SCU Private Timer Instance */
+ ^
+../src/lab5.c: In function 'main':
+../src/lab5.c:18:4: error: unknown type name 'XScuTimer_Config'
+    XScuTimer_Config *ConfigPtr;
+    ^
+../src/lab5.c:19:4: error: unknown type name 'XScuTimer'
+    XScuTimer *TimerInstancePtr = &Timer;
+    ^
+../src/lab5.c:48:5: warning: implicit declaration of function 'XScuTimer_Stop' [-Wimplicit-function-declaration]
+     XScuTimer_Stop(TimerInstancePtr);
+     ^
+../src/lab5.c:59:4: warning: implicit declaration of function 'XScuTimer_IsExpired' [-Wimplicit-function-declaration]
+    if(XScuTimer_IsExpired(TimerInstancePtr)) {
+    ^
+../src/lab5.c:18:22: warning: unused variable 'ConfigPtr' [-Wunused-variable]
+    XScuTimer_Config *ConfigPtr;
+                      ^
+../src/lab5.c:15:53: warning: unused variable 'Status' [-Wunused-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                                                     ^
+../src/lab5.c:15:46: warning: variable 'count' set but not used [-Wunused-but-set-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                                              ^
+make: *** [src/lab5.o] Error 1
+21:59:25 **** Auto Build of configuration Debug for project lab5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/lab5.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab5.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab5.d" -MT"src/lab5.o" -o "src/lab5.o" "../src/lab5.c"
+../src/lab5.c:5:22: fatal error: scutimer.h: No such file or directory
+ #include "scutimer.h"
+                      ^
+compilation terminated.
+make: *** [src/lab5.o] Error 1
+22:00:55 **** Build of project lab5_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/bram_v4_1/src"
+make -C ps7_cortexa9_0/libsrc/bram_v4_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_1/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/led_ip_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/led_ip_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v5_4/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make libs in ps7_cortexa9_0/libsrc/bram_v4_1/src"
+make -C ps7_cortexa9_0/libsrc/bram_v4_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling bram"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_1/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling gpio"
+"Running Make libs in ps7_cortexa9_0/libsrc/led_ip_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/led_ip_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling led_ip..."
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v5_4/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling xadcps"
+'Finished building libraries'
+
+**** Build of configuration Debug for project lab5 ****
+
+Nothing to build for project lab5
+22:32:50 **** Auto Build of configuration Debug for project lab5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/lab5.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab5.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab5.d" -MT"src/lab5.o" -o "src/lab5.o" "../src/lab5.c"
+'Finished building: ../src/lab5.c'
+' '
+'Building target: lab5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../lab5_bsp/ps7_cortexa9_0/lib -o "lab5.elf"  ./src/lab5.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../lab5_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
+xil-crt0.S:(.text+0x68): undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [lab5.elf] Error 1
+22:33:05 **** Auto Build of configuration Debug for project lab5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/lab5.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab5.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab5.d" -MT"src/lab5.o" -o "src/lab5.o" "../src/lab5.c"
+'Finished building: ../src/lab5.c'
+' '
+'Building target: lab5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../lab5_bsp/ps7_cortexa9_0/lib -o "lab5.elf"  ./src/lab5.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../lab5_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
+xil-crt0.S:(.text+0x68): undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [lab5.elf] Error 1
+22:33:22 **** Auto Build of configuration Debug for project lab5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/lab5.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab5.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab5.d" -MT"src/lab5.o" -o "src/lab5.o" "../src/lab5.c"
+'Finished building: ../src/lab5.c'
+' '
+'Building target: lab5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../lab5_bsp/ps7_cortexa9_0/lib -o "lab5.elf"  ./src/lab5.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../lab5_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
+xil-crt0.S:(.text+0x68): undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [lab5.elf] Error 1
+22:33:27 **** Auto Build of configuration Debug for project lab5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/lab5.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab5.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab5.d" -MT"src/lab5.o" -o "src/lab5.o" "../src/lab5.c"
+'Finished building: ../src/lab5.c'
+' '
+'Building target: lab5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../lab5_bsp/ps7_cortexa9_0/lib -o "lab5.elf"  ./src/lab5.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../lab5_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
+xil-crt0.S:(.text+0x68): undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [lab5.elf] Error 1
+22:33:43 **** Auto Build of configuration Debug for project lab5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/lab5.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab5.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab5.d" -MT"src/lab5.o" -o "src/lab5.o" "../src/lab5.c"
+../src/lab5.c:7:1: error: unknown type name 'XScuTimer'
+ XScuTimer Timer;  /* Cortex A9 SCU Private Timer Instance */
+ ^
+../src/lab5.c: In function 'main':
+../src/lab5.c:18:4: error: unknown type name 'XScuTimer_Config'
+    XScuTimer_Config *ConfigPtr;
+    ^
+../src/lab5.c:19:4: error: unknown type name 'XScuTimer'
+    XScuTimer *TimerInstancePtr = &Timer;
+    ^
+../src/lab5.c:48:5: warning: implicit declaration of function 'XScuTimer_Stop' [-Wimplicit-function-declaration]
+     XScuTimer_Stop(TimerInstancePtr);
+     ^
+../src/lab5.c:59:4: warning: implicit declaration of function 'XScuTimer_IsExpired' [-Wimplicit-function-declaration]
+    if(XScuTimer_IsExpired(TimerInstancePtr)) {
+    ^
+../src/lab5.c:18:22: warning: unused variable 'ConfigPtr' [-Wunused-variable]
+    XScuTimer_Config *ConfigPtr;
+                      ^
+../src/lab5.c:15:53: warning: unused variable 'Status' [-Wunused-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                                                     ^
+../src/lab5.c:15:46: warning: variable 'count' set but not used [-Wunused-but-set-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                                              ^
+make: *** [src/lab5.o] Error 1
+22:34:17 **** Auto Build of configuration Debug for project lab5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/lab5.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab5.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab5.d" -MT"src/lab5.o" -o "src/lab5.o" "../src/lab5.c"
+../src/lab5.c: In function 'main':
+../src/lab5.c:18:22: warning: unused variable 'ConfigPtr' [-Wunused-variable]
+    XScuTimer_Config *ConfigPtr;
+                      ^
+../src/lab5.c:15:53: warning: unused variable 'Status' [-Wunused-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                                                     ^
+../src/lab5.c:15:46: warning: variable 'count' set but not used [-Wunused-but-set-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                                              ^
+'Finished building: ../src/lab5.c'
+' '
+'Building target: lab5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../lab5_bsp/ps7_cortexa9_0/lib -o "lab5.elf"  ./src/lab5.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size lab5.elf  |tee "lab5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24840	   1184	  22596	  48620	   bdec	lab5.elf
+'Finished building: lab5.elf.size'
+' '
+22:34:19 **** Auto Build of configuration Debug for project lab5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/lab5.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab5.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab5.d" -MT"src/lab5.o" -o "src/lab5.o" "../src/lab5.c"
+../src/lab5.c: In function 'main':
+../src/lab5.c:19:22: warning: unused variable 'ConfigPtr' [-Wunused-variable]
+    XScuTimer_Config *ConfigPtr;
+                      ^
+../src/lab5.c:16:53: warning: unused variable 'Status' [-Wunused-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                                                     ^
+../src/lab5.c:16:46: warning: variable 'count' set but not used [-Wunused-but-set-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                                              ^
+'Finished building: ../src/lab5.c'
+' '
+'Building target: lab5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../lab5_bsp/ps7_cortexa9_0/lib -o "lab5.elf"  ./src/lab5.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size lab5.elf  |tee "lab5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24840	   1184	  22596	  48620	   bdec	lab5.elf
+'Finished building: lab5.elf.size'
+' '
+22:34:21 **** Auto Build of configuration Debug for project lab5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+22:38:14 **** Auto Build of configuration Debug for project lab5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/lab5.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab5.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab5.d" -MT"src/lab5.o" -o "src/lab5.o" "../src/lab5.c"
+../src/lab5.c: In function 'main':
+../src/lab5.c:15:46: warning: variable 'count' set but not used [-Wunused-but-set-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                                              ^
+'Finished building: ../src/lab5.c'
+' '
+'Building target: lab5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../lab5_bsp/ps7_cortexa9_0/lib -o "lab5.elf"  ./src/lab5.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size lab5.elf  |tee "lab5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24992	   1192	  22596	  48780	   be8c	lab5.elf
+'Finished building: lab5.elf.size'
+' '
+22:38:37 **** Auto Build of configuration Debug for project lab5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/lab5.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab5.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab5.d" -MT"src/lab5.o" -o "src/lab5.o" "../src/lab5.c"
+../src/lab5.c: In function 'main':
+../src/lab5.c:15:46: warning: variable 'count' set but not used [-Wunused-but-set-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                                              ^
+'Finished building: ../src/lab5.c'
+' '
+'Building target: lab5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../lab5_bsp/ps7_cortexa9_0/lib -o "lab5.elf"  ./src/lab5.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size lab5.elf  |tee "lab5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24992	   1192	  22596	  48780	   be8c	lab5.elf
+'Finished building: lab5.elf.size'
+' '
+22:38:40 **** Auto Build of configuration Debug for project lab5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/lab5.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab5.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab5.d" -MT"src/lab5.o" -o "src/lab5.o" "../src/lab5.c"
+../src/lab5.c: In function 'main':
+../src/lab5.c:15:46: warning: variable 'count' set but not used [-Wunused-but-set-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                                              ^
+'Finished building: ../src/lab5.c'
+' '
+'Building target: lab5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../lab5_bsp/ps7_cortexa9_0/lib -o "lab5.elf"  ./src/lab5.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size lab5.elf  |tee "lab5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25056	   1192	  22596	  48844	   becc	lab5.elf
+'Finished building: lab5.elf.size'
+' '
+22:38:44 **** Auto Build of configuration Debug for project lab5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/lab5.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab5.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab5.d" -MT"src/lab5.o" -o "src/lab5.o" "../src/lab5.c"
+../src/lab5.c: In function 'main':
+../src/lab5.c:15:46: warning: variable 'count' set but not used [-Wunused-but-set-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                                              ^
+'Finished building: ../src/lab5.c'
+' '
+'Building target: lab5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../lab5_bsp/ps7_cortexa9_0/lib -o "lab5.elf"  ./src/lab5.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size lab5.elf  |tee "lab5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25056	   1192	  22596	  48844	   becc	lab5.elf
+'Finished building: lab5.elf.size'
+' '
+22:38:48 **** Auto Build of configuration Debug for project lab5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/lab5.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab5.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab5.d" -MT"src/lab5.o" -o "src/lab5.o" "../src/lab5.c"
+../src/lab5.c: In function 'main':
+../src/lab5.c:15:46: warning: variable 'count' set but not used [-Wunused-but-set-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                                              ^
+'Finished building: ../src/lab5.c'
+' '
+'Building target: lab5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../lab5_bsp/ps7_cortexa9_0/lib -o "lab5.elf"  ./src/lab5.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size lab5.elf  |tee "lab5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25056	   1192	  22596	  48844	   becc	lab5.elf
+'Finished building: lab5.elf.size'
+' '
+22:39:07 **** Auto Build of configuration Debug for project lab5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/lab5.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab5.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab5.d" -MT"src/lab5.o" -o "src/lab5.o" "../src/lab5.c"
+../src/lab5.c: In function 'main':
+../src/lab5.c:15:46: warning: variable 'count' set but not used [-Wunused-but-set-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                                              ^
+'Finished building: ../src/lab5.c'
+' '
+'Building target: lab5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../lab5_bsp/ps7_cortexa9_0/lib -o "lab5.elf"  ./src/lab5.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size lab5.elf  |tee "lab5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25120	   1192	  22596	  48908	   bf0c	lab5.elf
+'Finished building: lab5.elf.size'
+' '
+22:39:11 **** Auto Build of configuration Debug for project lab5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/lab5.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab5.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab5.d" -MT"src/lab5.o" -o "src/lab5.o" "../src/lab5.c"
+../src/lab5.c: In function 'main':
+../src/lab5.c:15:46: warning: variable 'count' set but not used [-Wunused-but-set-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                                              ^
+'Finished building: ../src/lab5.c'
+' '
+'Building target: lab5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../lab5_bsp/ps7_cortexa9_0/lib -o "lab5.elf"  ./src/lab5.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size lab5.elf  |tee "lab5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25120	   1192	  22596	  48908	   bf0c	lab5.elf
+'Finished building: lab5.elf.size'
+' '
+22:39:16 **** Auto Build of configuration Debug for project lab5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/lab5.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab5.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab5.d" -MT"src/lab5.o" -o "src/lab5.o" "../src/lab5.c"
+../src/lab5.c: In function 'main':
+../src/lab5.c:15:46: warning: variable 'count' set but not used [-Wunused-but-set-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                                              ^
+'Finished building: ../src/lab5.c'
+' '
+'Building target: lab5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../lab5_bsp/ps7_cortexa9_0/lib -o "lab5.elf"  ./src/lab5.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size lab5.elf  |tee "lab5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25120	   1192	  22596	  48908	   bf0c	lab5.elf
+'Finished building: lab5.elf.size'
+' '
+22:39:19 **** Auto Build of configuration Debug for project lab5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/lab5.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab5.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab5.d" -MT"src/lab5.o" -o "src/lab5.o" "../src/lab5.c"
+../src/lab5.c: In function 'main':
+../src/lab5.c:15:46: warning: variable 'count' set but not used [-Wunused-but-set-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                                              ^
+'Finished building: ../src/lab5.c'
+' '
+'Building target: lab5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../lab5_bsp/ps7_cortexa9_0/lib -o "lab5.elf"  ./src/lab5.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size lab5.elf  |tee "lab5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25120	   1192	  22596	  48908	   bf0c	lab5.elf
+'Finished building: lab5.elf.size'
+' '
+22:39:25 **** Auto Build of configuration Debug for project lab5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/lab5.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab5.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab5.d" -MT"src/lab5.o" -o "src/lab5.o" "../src/lab5.c"
+In file included from ../src/lab5.c:3:0:
+../src/lab5.c: In function 'main':
+../src/lab5.c:75:25: error: 'XPAR_LED_IP_S_AXI_BASEADDR' undeclared (first use in this function)
+        LED_IP_mWriteReg(XPAR_LED_IP_S_AXI_BASEADDR, 0, count);
+                         ^
+../../lab5_bsp/ps7_cortexa9_0/include/led_ip.h:35:15: note: in definition of macro 'LED_IP_mWriteReg'
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+               ^
+../src/lab5.c:75:25: note: each undeclared identifier is reported only once for each function it appears in
+        LED_IP_mWriteReg(XPAR_LED_IP_S_AXI_BASEADDR, 0, count);
+                         ^
+../../lab5_bsp/ps7_cortexa9_0/include/led_ip.h:35:15: note: in definition of macro 'LED_IP_mWriteReg'
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+               ^
+make: *** [src/lab5.o] Error 1
+22:40:11 **** Auto Build of configuration Debug for project lab5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/lab5.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab5.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab5.d" -MT"src/lab5.o" -o "src/lab5.o" "../src/lab5.c"
+In file included from ../src/lab5.c:3:0:
+../src/lab5.c: In function 'main':
+../src/lab5.c:75:56: error: 'cout' undeclared (first use in this function)
+        LED_IP_mWriteReg(XPAR_LED_IP_0_S_AXI_BASEADDR,0,cout);
+                                                        ^
+../../lab5_bsp/ps7_cortexa9_0/include/led_ip.h:35:49: note: in definition of macro 'LED_IP_mWriteReg'
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/lab5.c:75:56: note: each undeclared identifier is reported only once for each function it appears in
+        LED_IP_mWriteReg(XPAR_LED_IP_0_S_AXI_BASEADDR,0,cout);
+                                                        ^
+../../lab5_bsp/ps7_cortexa9_0/include/led_ip.h:35:49: note: in definition of macro 'LED_IP_mWriteReg'
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/lab5.c:76:25: error: 'XPAR_LED_IP_S_AXI_BASEADDR' undeclared (first use in this function)
+        LED_IP_mWriteReg(XPAR_LED_IP_S_AXI_BASEADDR, 0, count);
+                         ^
+../../lab5_bsp/ps7_cortexa9_0/include/led_ip.h:35:15: note: in definition of macro 'LED_IP_mWriteReg'
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+               ^
+make: *** [src/lab5.o] Error 1
+22:40:23 **** Auto Build of configuration Debug for project lab5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/lab5.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab5.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab5.d" -MT"src/lab5.o" -o "src/lab5.o" "../src/lab5.c"
+In file included from ../src/lab5.c:3:0:
+../src/lab5.c: In function 'main':
+../src/lab5.c:76:25: error: 'XPAR_LED_IP_S_AXI_BASEADDR' undeclared (first use in this function)
+        LED_IP_mWriteReg(XPAR_LED_IP_S_AXI_BASEADDR, 0, count);
+                         ^
+../../lab5_bsp/ps7_cortexa9_0/include/led_ip.h:35:15: note: in definition of macro 'LED_IP_mWriteReg'
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+               ^
+../src/lab5.c:76:25: note: each undeclared identifier is reported only once for each function it appears in
+        LED_IP_mWriteReg(XPAR_LED_IP_S_AXI_BASEADDR, 0, count);
+                         ^
+../../lab5_bsp/ps7_cortexa9_0/include/led_ip.h:35:15: note: in definition of macro 'LED_IP_mWriteReg'
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+               ^
+make: *** [src/lab5.o] Error 1
+22:40:26 **** Auto Build of configuration Debug for project lab5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/lab5.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab5.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab5.d" -MT"src/lab5.o" -o "src/lab5.o" "../src/lab5.c"
+'Finished building: ../src/lab5.c'
+' '
+'Building target: lab5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../lab5_bsp/ps7_cortexa9_0/lib -o "lab5.elf"  ./src/lab5.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size lab5.elf  |tee "lab5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25184	   1192	  22596	  48972	   bf4c	lab5.elf
+'Finished building: lab5.elf.size'
+' '
+22:40:31 **** Auto Build of configuration Debug for project lab5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/lab5.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab5.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab5.d" -MT"src/lab5.o" -o "src/lab5.o" "../src/lab5.c"
+'Finished building: ../src/lab5.c'
+' '
+'Building target: lab5.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../lab5_bsp/ps7_cortexa9_0/lib -o "lab5.elf"  ./src/lab5.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab5.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size lab5.elf  |tee "lab5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25184	   1192	  22596	  48972	   bf4c	lab5.elf
+'Finished building: lab5.elf.size'
+' '
+22:41:24 **** Incremental Build of configuration Debug for project lab5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+22:41:50 **** Incremental Build of configuration Debug for project lab5 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.

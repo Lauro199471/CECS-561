@@ -1,0 +1,1 @@
+vopt -64 +acc -l elaborate.log -L unisims_ver -L unimacro_ver -L secureip -L processing_system7_bfm_v2_0_5 -L xil_defaultlib -work xil_defaultlib xil_defaultlib.design_1 xil_defaultlib.glbl -o design_1_opt

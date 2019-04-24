@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+# 
+# Start of session at: Tue Apr 23 21:38:39 2019
+# Process ID: 20264
+# Current directory: C:/Lab2/project_4/project_4.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: C:/Lab2/project_4/project_4.sdk/webtalk/webtalk.log
+# Journal file: C:/Lab2/project_4/project_4.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl
